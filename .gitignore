@@ -5,3 +5,5 @@ _site/
 .bundle/
 .DS_Store
 site/_site/
+_theme_packages/
+Thumbs.db
