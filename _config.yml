@@ -9,7 +9,7 @@ markdown: kramdown
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Scott Todd - Homepage
+title : Scott Todd
 tagline: Site Tagline!!
 title_prefix: Testing!
 author :

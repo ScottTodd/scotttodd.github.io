@@ -1,5 +1,22 @@
 body {
-  background-image:url(/images/bright_squares.png); }
+  background-image: url(/images/bright_squares.png); }
+
+.navbar-inner {
+  background-image: url(/images/dark_matter.png);
+  background-repeat: repeat;
+  border: 0;
+  border-radius: 0; }
+
+.navbar .brand {
+  text-shadow: none;
+  color: #bbbbbb; }
+
+.navbar .nav > li > a {
+  text-shadow: none;
+  color: #bbbbbb; }
+
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+  color: #4477af; }
 
 /* Custom container */
 .container-narrow {
