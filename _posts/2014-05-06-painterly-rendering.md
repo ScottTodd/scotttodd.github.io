@@ -7,4 +7,4 @@ tags: [graphics]
 ---
 {% include JB/setup %}
 
-[GitHub](https://github.com/ScottTodd/PainterlyRendering)
+<div class="github-widget" data-repo="ScottTodd/PainterlyRendering"></div>
