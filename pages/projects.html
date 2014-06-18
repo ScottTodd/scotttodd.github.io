@@ -6,6 +6,13 @@ group: navigation
 ---
 {% include JB/setup %}
 
-{% for post in site.categories["projects"] %}
-    <li><a href= {{post.url }}>{{ post.title }}</a></li>
-{% endfor %}
+<ul>
+  {% for post in site.categories["projects"] %}
+    <li class="post-excerpt-list">
+      <span class="post-excerpt-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
+      <br>
+      <span class="post-excerpt-tagline">{{ post.tagline }}</span>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>

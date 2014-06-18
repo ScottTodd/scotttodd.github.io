@@ -18,7 +18,7 @@ body {
 .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
   color: #4477af; }
 
-/* Custom container */
+/* custom container */
 .container-narrow {
   margin: 0 auto;
   max-width: 850px; }
@@ -43,10 +43,25 @@ body {
   margin: 10px 0;
   text-align: left; }
 
-/* post-full*/
+/* post-full */
 .post-full .date {
   margin-bottom: 20px;
   font-weight: bold; }
+
+/* post-excerpt */
+.post-excerpt-list {
+  list-style: none; }
+
+.post-excerpt-title {
+  font-size: 18px;
+  font-weight: bold; }
+
+.post-excerpt-tagline {
+  font-size: 16px; }
+
+/* taglines use h1 small */
+h1 small {
+  font-size: 22px; }
 
 /* tag_box */
 .tag_box {
