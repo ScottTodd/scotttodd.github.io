@@ -48,16 +48,23 @@ body {
   margin-bottom: 20px;
   font-weight: bold; }
 
-/* post-excerpt */
-.post-excerpt-list {
+/* post-summary */
+.post-summary-list {
   list-style: none; }
 
-.post-excerpt-title {
+.post-summary-title {
   font-size: 18px;
   font-weight: bold; }
 
-.post-excerpt-tagline {
+.post-summary-tagline {
   font-size: 16px; }
+
+.title-summary {
+  display: block;
+  max-width: 600px;
+  max-height: 300px;
+  width: auto;
+  height: auto; }
 
 /* taglines use h1 small */
 h1 small {

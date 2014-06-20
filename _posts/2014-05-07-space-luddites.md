@@ -5,10 +5,11 @@ tagline: Cooperative sidescrolling beat-em-up.
 description: ""
 category: projects
 tags: [games]
+title_image: /assets/projects/space-luddites/space-luddites-title_small.png
 ---
 {% include JB/setup %}
 
-<img src="/assets/projects/space-luddites/space-luddites-title.png" width="500px" height="281px">
+<a href="/assets/projects/space-luddites/space-luddites-title_large.png"><img src="/assets/projects/space-luddites/space-luddites-title_medium.png"></a>
 
 <!--more-->
 

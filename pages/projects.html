@@ -8,11 +8,12 @@ group: navigation
 
 <ul>
   {% for post in site.categories["projects"] %}
-    <li class="post-excerpt-list">
-      <span class="post-excerpt-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
-      <br>
-      <span class="post-excerpt-tagline">{{ post.tagline }}</span>
-      {{ post.excerpt }}
+    <li class="post-summary-list">
+      <span class="post-summary-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
+      <span class="post-summary-tagline">{{ post.tagline }}</span>
+      <a href="{{ post.url }}"><img src="{{ post.title_image }}" class="title-summary"></a>
+      <!-- {{ post.excerpt }} -->
     </li>
+    <hr>
   {% endfor %}
 </ul>

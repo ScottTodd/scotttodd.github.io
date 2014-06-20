@@ -5,10 +5,11 @@ tagline: Real-time painterly rendering using WebGL.
 description: ""
 category: projects
 tags: [graphics]
+title_image: /assets/projects/painterly-rendering/magma-bunny.png
 ---
 {% include JB/setup %}
 
-<img src="/assets/projects/painterly-rendering/magma-bunny.png" width="300px" height="300px">
+<img src="/assets/projects/painterly-rendering/magma-bunny.png">
 
 <!--more-->
 
