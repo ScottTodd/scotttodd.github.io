@@ -5,13 +5,11 @@ tagline: Real-time painterly rendering using WebGL.
 description: ""
 category: projects
 tags: [Graphics, CoffeeScript, Open Source]
-title_image: /assets/projects/painterly-rendering/magma-bunny.png
+title_images: /assets/projects/painterly-rendering/magma-bunny.png
 ---
 {% include JB/setup %}
 
 <img src="/assets/projects/painterly-rendering/magma-bunny.png">
-
-<!--more-->
 
 <img src="/assets/projects/painterly-rendering/blue-teapot.png" height="300px" width="300px">
 
