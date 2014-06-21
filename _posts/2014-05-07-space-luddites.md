@@ -16,5 +16,5 @@ title_image: /assets/projects/space-luddites/space-luddites-title_small.png
 
 <br>
 
-Check out our <a href="http://snabb.webege.com/press/">web page</a> for more images and information!
+Check out our <a href="http://snabb.webege.com/press/">website</a> for more images and information!
 <br>Download the title image <a href="/assets/projects/space-luddites/space-luddites-title_large.png">here</a>.
