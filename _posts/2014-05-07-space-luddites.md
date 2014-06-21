@@ -9,8 +9,12 @@ title_image: /assets/projects/space-luddites/space-luddites-title_small.png
 ---
 {% include JB/setup %}
 
-<a href="/assets/projects/space-luddites/space-luddites-title_large.png"><img src="/assets/projects/space-luddites/space-luddites-title_medium.png"></a>
 
 <!--more-->
 
-Check out our <a href="http://snabb.webege.com/press/">web page</a>!
+<div class="video-wrapper"><iframe src="//player.vimeo.com/video/92751871" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+
+<br>
+
+Check out our <a href="http://snabb.webege.com/press/">web page</a> for more images and information!
+<br>Download the title image <a href="/assets/projects/space-luddites/space-luddites-title_large.png">here</a>.
