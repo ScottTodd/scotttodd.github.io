@@ -1,4 +1,4 @@
 scotttodd.github.io
 ===================
 
-This page is under construction.
+Readme coming soon!

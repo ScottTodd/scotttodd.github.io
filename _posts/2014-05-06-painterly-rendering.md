@@ -4,7 +4,7 @@ title: "Painterly Rendering"
 tagline: Real-time painterly rendering using WebGL.
 description: ""
 category: projects
-tags: [graphics]
+tags: [Graphics, CoffeeScript, Open Source]
 title_image: /assets/projects/painterly-rendering/magma-bunny.png
 ---
 {% include JB/setup %}

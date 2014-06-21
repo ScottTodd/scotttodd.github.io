@@ -4,7 +4,7 @@ title: "Space Luddites"
 tagline: Cooperative sidescrolling beat-em-up.
 description: ""
 category: projects
-tags: [games]
+tags: [Games, Unity3D, C#]
 title_image: /assets/projects/space-luddites/space-luddites-title_small.png
 ---
 {% include JB/setup %}
