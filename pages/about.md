@@ -9,7 +9,7 @@ group: navigation
 <img src="/assets/images/scott-todd.png" class="photo-id">
 
 <p>Hi! I'm Scott!</p>
-I am an undergraduate student entering my senior year at <a href="http://www.rpi.edu/">Rensselaer</a> (RPI), studying <a href="http://www.cs.rpi.edu/">Computer Science</a> and <a href="http://www.hass.rpi.edu/pl/gaming">Games and Simulation Arts & Sciences</a>.
+I am an undergraduate student entering my senior year at <a href="http://www.rpi.edu/">Rensselaer</a> (RPI), studying <a href="http://www.cs.rpi.edu/">Computer Science</a> and <a href="http://www.hass.rpi.edu/pl/gaming">Games and Simulation Arts & Sciences</a>. I enjoy graphics, gameplay, and data visualization programming.
 
 For this summer, I am a Software Engineering Intern at Google in Seattle, where I've been helping to add additional WebGL debugging tools to their open source <a href="http://google.github.io/tracing-framework/">Web Tracing Framework</a>.
 

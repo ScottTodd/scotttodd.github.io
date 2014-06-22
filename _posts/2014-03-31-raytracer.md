@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Raytracer"
-tagline: Ray Tracing, Radiosity, and Photon Mapping
+tagline: Ray Tracing, Radiosity, and Photon Mapping in C++ and OpenGL.
 category: projects
-tags: [Graphics, C++]
+tags: [Graphics, C++, OpenGL]
 title_images: [/assets/projects/raytracer/raytracing.png, /assets/projects/raytracer/radiosity.png]
 ---
 {% include JB/setup %}
@@ -50,8 +50,8 @@ Photon Mapping
         <figcaption>Radiosity within the <a href="http://en.wikipedia.org/wiki/Cornell_box">Cornell box</a></figcaption>
     </figure>
     <figure>
-        <img src="/assets/projects/raytracer/radiosity-undistributed.png" title="Undistributed radiosity" class="project-padded" height="400px" width="400px">
-        <figcaption>Undistributed radiosity</figcaption>
+        <img src="/assets/projects/raytracer/radiosity-undistributed.png" title="Undistributed radiosity during iterative solving" class="project-padded" height="400px" width="400px">
+        <figcaption>Undistributed radiosity during iterative solving</figcaption>
     </figure>
 </div>
 

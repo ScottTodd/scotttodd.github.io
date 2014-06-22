@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Space Luddites"
-tagline: Cooperative sidescrolling beat-em-up.
+tagline: Cooperative sidescrolling beat-em-up using Unity3D.
 description: ""
 category: projects
 tags: [Games, Unity3D, C#]
