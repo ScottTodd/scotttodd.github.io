@@ -18,6 +18,15 @@ body {
 .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
   color: #4477af; }
 
+/* contact info */
+.contact-info table, th, td{
+  border: none; }
+
+.contact-info th, td{
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px; }
+
 /* custom container */
 .container-narrow {
   margin: 0 auto;
