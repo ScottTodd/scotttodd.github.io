@@ -12,17 +12,17 @@ gems:
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Scott Todd
-tagline: Site Tagline!!
-title_prefix: Testing!
-author :
-  name : Scott Todd
-  email : scott.todd0@gmail.com
-  github : ScottTodd
-  twitter : username
-  feedburner : feedname
+title: Scott Todd
+tagline:
+title_prefix:
+author:
+  name: Scott Todd
+  email: scott.todd0@gmail.com
+  github: ScottTodd
+  twitter: username
+  feedburner: feedname
 
-excerpt_separator: <!--more-->  # you can specify your own separator, of course.
+excerpt_separator: <!--more-->
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt

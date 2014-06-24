@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{{ site.title_prefix }}{{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
@@ -39,7 +39,7 @@
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container-narrow">
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
+          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}{{ site.tagline }}</a>
           <ul class="nav">
             <li><a href="/index.html">Home</a></li>
             <li><a href="/pages/about.html">About Me</a></li>
