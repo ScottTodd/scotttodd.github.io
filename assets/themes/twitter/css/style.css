@@ -18,11 +18,25 @@ body {
 .navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
   color: #4477af; }
 
+/* hr (thematic break, horizontal rule) */
+/* thanks to http://css-tricks.com/examples/hrs/ */
+hr  {
+  border: 0;
+  height: 2px;
+  background-image: -webkit-linear-gradient(
+      left, rgba(0,0,0,0), rgba(0,0,0,0.4), rgba(0,0,0,0.4), rgba(0,0,0,0));
+  background-image: -moz-linear-gradient(
+      left, rgba(0,0,0,0), rgba(0,0,0,0.4), rgba(0,0,0,0.4), rgba(0,0,0,0));
+  background-image: -ms-linear-gradient(
+      left, rgba(0,0,0,0), rgba(0,0,0,0.4), rgba(0,0,0,0.4), rgba(0,0,0,0));
+  background-image: -o-linear-gradient(
+      left, rgba(0,0,0,0), rgba(0,0,0,0.4), rgba(0,0,0,0.4), rgba(0,0,0,0)); }
+
 /* contact info */
-.contact-info table, th, td{
+.contact-info table, th, td {
   border: none; }
 
-.contact-info th, td{
+.contact-info th, td {
   padding: 2px;
   padding-left: 5px;
   padding-right: 5px; }
@@ -95,11 +109,14 @@ body {
   list-style: none; }
 
 .post-summary-title {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold; }
 
 .post-summary-tagline {
   font-size: 16px; }
+
+.post-summary-date {
+  font-size: 14px; }
 
 .title-summary {
   display: inline-block;
