@@ -30,6 +30,7 @@ Before working for Google, I spent three summers interning at <a href="http://ww
     <script type="IN/MemberProfile" data-id="http://www.linkedin.com/pub/scott-todd/45/5ab/459" data-format="hover" data-text="Scott Todd" data-related="false"></script>
 
     <!-- GitHub Witgets from http://www.newmediacampaigns.com/blog/a-beautiful-jquery-github-widget -->
+    <script type="text/javascript" src="/assets/js/github-buttons.js"></script>
     <tr><td>GitHub:<td><a class="btn btn-success btn-mini" id="gf" href="https://github.com/scotttodd/followers" title="Go to ScottTodd's GitHub followers page" target="_blank"></a>
     &nbsp;
     <a class="btn btn-success btn-mini" id="gfr" href="https://github.com/scotttodd/repositories" title="Go to ScottTodd's GitHub repositories page" target="_blank"></a>

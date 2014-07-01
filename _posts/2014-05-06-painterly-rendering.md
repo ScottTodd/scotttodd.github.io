@@ -26,6 +26,7 @@ This was my final project for <a href="http://www.cs.rpi.edu/~cutler/classes/adv
 
 Click <a href="/assets/projects/painterly-rendering/painterly-rendering.pdf">here</a> to download our full report.
 
+<script type="text/javascript" src="/assets/js/jquery.githubRepoWidget.min.js"></script>
 <div class="github-widget" data-repo="ScottTodd/PainterlyRendering"></div>
 
 <hr>
