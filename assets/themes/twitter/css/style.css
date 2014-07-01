@@ -66,6 +66,10 @@ hr  {
 .one-line div {
   display: inline-block; }
 
+.logo {
+  max-height: 30px;
+  padding-left: 15px; }
+
 .job-title {
   font-style: italic; }
 
