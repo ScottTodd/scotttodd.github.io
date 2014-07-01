@@ -8,7 +8,8 @@ body {
 #footer {
   bottom: 10px;
   position: absolute;
-  min-width: 100%; }
+  min-width: 100%;
+  text-align: center; }
 
 .navbar-inner {
   background-image: url(/assets/images/dark-matter.png);
@@ -247,3 +248,10 @@ h1 small {
   overflow: hidden;
   break-inside: avoid-column;
   -webkit-column-break-inside: avoid; }
+
+/* 404 */
+#error-404 {
+  top: 50%;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 200px; }
