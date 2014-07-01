@@ -1,5 +1,14 @@
+html {
+  height: calc(100% - 60px); /* offset by padding from navbar */ }
+
 body {
-  background-image: url(/assets/images/bright-squares.png); }
+  background-image: url(/assets/images/bright-squares.png);
+  height: 100%; }
+
+#footer {
+  bottom: 10px;
+  position: absolute;
+  min-width: 100%; }
 
 .navbar-inner {
   background-image: url(/assets/images/dark-matter.png);
@@ -88,6 +97,13 @@ hr  {
   list-style-type: none; }
 
 /* custom container */
+.content-container {
+  min-height: 100%;
+  position: relative; }
+
+.content {
+  padding-bottom: 80px; }
+
 .container-narrow {
   margin: 0 auto;
   max-width: 850px; }
