@@ -13,6 +13,8 @@ title_images: /assets/projects/space-luddites/space-luddites-title_small.png
 
 <br>
 
+Play the game in your browser <a href="/assets/projects/space-luddites/web-build.html">here</a>! (Unity Web Player Plugin required)
+
 This game was the result of three months of work in <a href="http://gamedev2-s14.wp.rpi.edu/">Game Development 2</a>. We used Unity3D with C#.
 
 Space Luddites is a multiplayer, 3D, sidescrolling beat-em-up set in outer space where a group of techno-haters works to fight and destroy corporations that use and make technology. The luddites work together to bring an end to these big technology firms and fight their way through various levels to free the galaxy from the grasp of technology.
