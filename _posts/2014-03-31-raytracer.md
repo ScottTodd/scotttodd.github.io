@@ -22,7 +22,11 @@ title_images: [/assets/projects/raytracer/raytracing.png, /assets/projects/raytr
 
 <hr>
 
-This was a <a href="http://www.cs.rpi.edu/~cutler/classes/advancedgraphics/S14/hw3_rendering.php">homework assignment</a> for <a href="http://www.cs.rpi.edu/~cutler/classes/advancedgraphics/S14/index.php">Advanced Computer Graphics</a>. As part of this assignment, I implemented:
+<h3>Overview</h3>
+
+This was a <a href="http://www.cs.rpi.edu/~cutler/classes/advancedgraphics/S14/hw3_rendering.php">homework assignment</a> for <a href="http://www.cs.rpi.edu/~cutler/classes/advancedgraphics/S14/index.php">Advanced Computer Graphics</a>. This project focused on implementing rendering using ray tracing, radiosity, and photon mapping.
+
+<h3>My Contributions</h3>
 
 Ray Tracing
 

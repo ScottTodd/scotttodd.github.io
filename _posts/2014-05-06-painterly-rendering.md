@@ -22,12 +22,18 @@ title_images: [/assets/projects/painterly-rendering/magma-bunny.png, /assets/pro
 
 <hr>
 
+<h3>Overview</h3>
+
 This was my final project for <a href="http://www.cs.rpi.edu/~cutler/classes/advancedgraphics/S14/index.php">Advanced Computer Graphics</a> and <a href="http://www.cogsci.rpi.edu/~destem/gamearch/">Game Architecture</a>. I worked with @andy-hanson on this project over a one month period. We used <a href="http://threejs.org/">three.js</a>, <a href="http://coffeescript.org/">CoffeeScript</a>, and WebGL.
 
 Click <a href="/assets/projects/painterly-rendering/painterly-rendering.pdf">here</a> to download our full report.
 
 <script type="text/javascript" src="/assets/js/jquery.githubRepoWidget.min.js"></script>
 <div class="github-widget" data-repo="ScottTodd/PainterlyRendering"></div>
+
+<h3>My Contributions</h3>
+
+I implemented brush stroke layers, depth-filtering using a multi-pass rendering approach, texture sampling, and diffuse lighting on brush stroke particles. We both contributed to the write-up and I performed the LaTeX conversion. I also collected all of the models and brush stroke textures that we used.
 
 <hr>
 
