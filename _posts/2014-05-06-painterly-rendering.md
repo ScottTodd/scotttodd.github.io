@@ -9,10 +9,12 @@ title_images: [/assets/projects/painterly-rendering/magma-bunny.png, /assets/pro
 ---
 {% include JB/setup %}
 
+<script src="/assets/projects/painterly-rendering/script/magma-bunny.js"></script>
+
 <div class="project-figures">
     <figure>
-        <img src="/assets/projects/painterly-rendering/magma-bunny.png" class="project-padded" height="340px" width="340px">
-        <figcaption><a href="http://en.wikipedia.org/wiki/Stanford_bunny">Stanford Bunny</a> with three layers of brush strokes</figcaption>
+        <div id="glContainer" class="project-padded" height="360px" width="360px"></div>
+        <figcaption>Interactive <a href="http://en.wikipedia.org/wiki/Stanford_bunny">Stanford Bunny</a> (requires WebGL)</figcaption>
     </figure>
     <figure>
         <img src="/assets/projects/painterly-rendering/the-scream.png" class="project-padded" height="360px" width="360px">
