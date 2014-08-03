@@ -6,6 +6,8 @@ group: navigation
 ---
 {% include JB/setup %}
 
+<link rel="stylesheet" href="/assets/css/about.css">
+
 <img src="/assets/images/scott-todd.png" class="photo-id">
 
 Hi! I'm Scott!
