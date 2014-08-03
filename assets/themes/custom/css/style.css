@@ -9,7 +9,17 @@ body {
   bottom: 10px;
   position: absolute;
   min-width: 100%;
-  text-align: center; }
+  text-align: center;
+  left: 0px; }
+
+.navbar {
+  margin-bottom: 0px; }
+
+.page-header {
+  margin: 0;
+  padding: 20px 0 30px;
+  margin-top: 30px;
+  border: none; }
 
 .navbar-inner {
   background-image: url(/assets/images/dark-matter.png);
@@ -50,15 +60,19 @@ hr  {
 
 /* custom container */
 .content-container {
-  min-height: 100%;
+  min-height: calc(100% - 40px); /* offset to leave space at the bottom */
   position: relative; }
 
 .content {
   padding-bottom: 80px; }
 
 .container-narrow {
-  margin: 0 auto;
-  max-width: 850px; }
+  margin: 0px auto 30px auto;
+  max-width: 850px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-image: url(/assets/images/honey-im-subtle.png);
+  border-radius: 14px; }
 
 .container-narrow > hr {
   margin: 30px 0; }
