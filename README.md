@@ -13,6 +13,8 @@ Directory Structure
 -------------------
 I mostly use the basic [Jekyll structure](http://jekyllrb.com/docs/structure/).
 
+The 'custom' theme is forked from the 'twitter' theme.
+
 Here are the main areas that I've worked in:
 
 ```
@@ -23,11 +25,11 @@ Here are the main areas that I've worked in:
 │   ├─── js
 │   ├─── projects
 │   └─── themes
-│       └─── twitter
+│       └─── custom
 │           └─── css
 └─── _includes (layouts and page templates)
     └─── themes
-        └─── twitter
+        └─── custom
 ```
 
 

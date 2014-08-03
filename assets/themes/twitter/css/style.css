@@ -1,152 +1,13 @@
-html {
-  height: calc(100% - 60px); /* offset by padding from navbar */ }
-
-body {
-  background-image: url(/assets/images/bright-squares.png);
-  height: 100%; }
-
-#footer {
-  bottom: 10px;
-  position: absolute;
-  min-width: 100%;
-  text-align: center; }
-
-.navbar-inner {
-  background-image: url(/assets/images/dark-matter.png);
-  background-repeat: repeat;
-  border: 0;
-  border-radius: 0; }
-
-.navbar .brand {
-  text-shadow: none;
-  color: #bbbbbb; }
-
-.navbar .nav > li > a {
-  text-shadow: none;
-  color: #bbbbbb; }
-
-.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
-  color: #4477af; }
-
-/* hr (thematic break, horizontal rule) */
-/* thanks to http://css-tricks.com/examples/hrs/ */
-hr  {
-  border: 0;
-  height: 2px;
-  background-image: -webkit-linear-gradient(
-      left, rgba(0,0,0,0), rgba(0,0,0,0.4), rgba(0,0,0,0.4), rgba(0,0,0,0));
-  background-image: -moz-linear-gradient(
-      left, rgba(0,0,0,0), rgba(0,0,0,0.4), rgba(0,0,0,0.4), rgba(0,0,0,0));
-  background-image: -ms-linear-gradient(
-      left, rgba(0,0,0,0), rgba(0,0,0,0.4), rgba(0,0,0,0.4), rgba(0,0,0,0));
-  background-image: -o-linear-gradient(
-      left, rgba(0,0,0,0), rgba(0,0,0,0.4), rgba(0,0,0,0.4), rgba(0,0,0,0)); }
-
-/* home page */
-.featured-image {
-  max-height: 330px;
-  max-width: 480px;
-  padding: 10px; }
-
-/* contact info */
-.contact-info table, th, td {
-  border: none; }
-
-.contact-info th, td {
-  padding: 2px;
-  padding-left: 5px;
-  padding-right: 5px; }
-
-/* resume */
-.resume-category h3 {
-  margin: 4px; }
-
-.resume-subcategory {
-  font-weight: bold;
-  padding-top: 6px;
-  padding-bottom: 4px;
-  padding-left: 15px; }
-
-.skills-table table, th, td {
-  border: none;
-  padding: 2px;
-  padding-left: 6px;
-  padding-right: 6px; }
-
-.one-line div {
-  display: inline-block; }
-
-.logo {
-  max-height: 30px;
-  padding-left: 15px; }
-
-.job-title {
-  font-style: italic; }
-
-.divider {
-  padding-left: 15px;
-  padding-right: 15px; }
-
-.company-description {
-  font-style: italic;
-  padding-left: 30px; }
-
-.indent {
-  padding-left: 30px; }
-
-.no-bullets {
-  list-style-type: none; }
-
-/* custom container */
-.content-container {
-  min-height: 100%;
-  position: relative; }
-
-.content {
-  padding-bottom: 80px; }
-
+/* Custom container */
 .container-narrow {
   margin: 0 auto;
-  max-width: 850px; }
+  max-width: 700px; }
 
 .container-narrow > hr {
   margin: 30px 0; }
 
 .navbar .nav {
   float: right; }
-
-/* personal photo */
-.photo-id {
-  border: 5px solid #333333;
-  border-radius: 20px;
-  width: 250px;
-  height: 250px;
-  float: left;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 30px; }
-
-/* project figures */
-.project-figures {
-  padding: 0; }
-
-.project-figures figure {
-  display: inline-block;
-  margin: 10px; }
-
-/* video wrapper for vimeo embedding */
-.video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
-  height: 0; }
-
-.video-wrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
 
 /* posts index */
 .post > h3.title {
@@ -162,36 +23,10 @@ hr  {
   margin: 10px 0;
   text-align: left; }
 
-/* post-full */
+/* post-full*/
 .post-full .date {
   margin-bottom: 20px;
   font-weight: bold; }
-
-/* post-summary */
-.post-summary-list {
-  list-style: none; }
-
-.post-summary-title {
-  font-size: 20px;
-  font-weight: bold; }
-
-.post-summary-tagline {
-  font-size: 16px; }
-
-.post-summary-date {
-  font-size: 14px; }
-
-.title-summary {
-  display: inline-block;
-  padding: 5px;
-  max-width: 600px;
-  max-height: 300px;
-  width: auto;
-  height: auto; }
-
-/* taglines use h1 small */
-h1 small {
-  font-size: 22px; }
 
 /* tag_box */
 .tag_box {
@@ -228,38 +63,3 @@ h1 small {
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
-
-/* columns */
-@media only screen and (min-width: 550px) and (max-width: 750px) {
-  .columns {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2; }
-}
-
-@media only screen and (min-width: 750px) {
-  .columns {
-    -webkit-column-count: 3;
-    -moz-column-count: 3;
-    column-count: 3; }
-}
-
-.columns-element {
-  overflow: hidden;
-  break-inside: avoid-column;
-  -webkit-column-break-inside: avoid; }
-
-/* 404 */
-#error-404 {
-  top: 50%;
-  font-size: 24px;
-  text-align: center;
-  padding-top: 200px; }
-
-/* gl container */
-#glContainer {
-  margin-left: auto;
-  margin-right: auto;
-  width: 360px;
-  height: 360px;
-  display: inline-block; }
