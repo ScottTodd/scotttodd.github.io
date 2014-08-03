@@ -12,13 +12,13 @@ title_images: [/assets/projects/sticks-and-stones/stage-3.png, /assets/projects/
 
 <br>
 
-<h3>Overview</h3>
+<div class="section-heading">Overview</div>
 
 This game was made for <a href="http://www.cogsci.rpi.edu/~destem/gamedev/">Game Development 1</a> in two weeks time. We were tasked with creating a "story-like shmup-like" (Shoot 'em up) in a creative setting using Python and <a href="http://www.pygame.org/">pygame</a>.
 
 Sticks & Stones is a game about an argument between two children that takes place on a scrolling whiteboard. As their argument escalates, the drawings become more violent. When enemies are defeated, they sometimes leave behind words representative of the current state of the argument.
 
-<h3>Team Members:</h3>
+<div class="section-heading">Team Members</div>
 
 * Cameron Chu: Programmer
 * [Kevin Fung](http://www.tinycranes.com/): Programmer
@@ -26,7 +26,7 @@ Sticks & Stones is a game about an argument between two children that takes plac
 * [Scott Todd]({{ HOME_PATH }}): Lead Programmer
 * David Vanderzee: Audio, Programmer
 
-<h3>My Contributions</h3>
+<div class="section-heading">My Contributions</div>
 
 I coded:
 
