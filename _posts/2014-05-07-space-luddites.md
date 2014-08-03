@@ -13,7 +13,7 @@ title_images: /assets/projects/space-luddites/space-luddites-title_small.png
 
 <br>
 
-<h3>Overview</h3>
+<div class="section-heading">Overview</div>
 
 This game was the result of three months of work in <a href="http://gamedev2-s14.wp.rpi.edu/">Game Development 2</a>. We used Unity3D with C#.
 
@@ -23,7 +23,7 @@ Play the game in your browser <a href="/assets/projects/space-luddites/web-build
 
 Check out our <a href="http://snabb.webege.com/press/">website</a> for more images and information!
 
-<h3>Team Members:</h3>
+<div class="section-heading">Team Members</div>
 
 * [Annie Sardelis](http://asardelis3.wix.com/portfolio/): Artist, Initial Concept
 * Brennan Cushin: Programmer
@@ -31,7 +31,7 @@ Check out our <a href="http://snabb.webege.com/press/">website</a> for more imag
 * [Neale LaPlante Johnson](http://diokatsu.wix.com/portfolio/): Writer, Producer
 * [Scott Todd]({{ HOME_PATH }}): Lead Programmer
 
-<h3>My Contributions</h3>
+<div class="section-heading">My Contributions</div>
 
 I wrote most of the non-AI code, including:
 
