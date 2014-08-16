@@ -1,0 +1,276 @@
+---
+---
+
+/* Colors */
+$page-background: #c2c2c2;
+$content-background: #dddddd;
+$nav-font: #bbbbbb;
+$link: #0088cc;
+$link-hover: #4477af;
+$link-hover-bg: #12122c;
+$section-heading: #e5e5e5;
+$section-heading-bg: #454545;
+
+/* Measurements */
+$navbar-height: 60px;
+$header-navbar-offset: 30px;
+$footer-offset: 40px;
+
+html {
+  height: calc(100% - #{$navbar-height});
+}
+
+body {
+  background-color: $page-background;
+  height: 100%;
+}
+
+.navbar {
+  margin-bottom: 0px;
+
+  .nav {
+    float: right;
+  }
+
+  .brand, .nav > li > a {
+    text-shadow: none;
+    color: $nav-font;
+  }
+
+  .navbar-inner {
+    background-image: url(/assets/images/dark-matter.png);
+    background-repeat: repeat;
+    border: 0;
+    border-radius: 0;
+  }
+
+  .nav > li {
+    a:focus, a:hover {
+      color: $link-hover;
+      background-color: $link-hover-bg;
+    }
+  }
+}
+
+#footer {
+  bottom: 10px;
+  position: absolute;
+  min-width: 100%;
+  text-align: center;
+  left: 0px;
+}
+
+.page-header {
+  margin: 0;
+  padding: 20px 0px 30px;
+  margin-top: $header-navbar-offset;
+  border: none;
+}
+
+.content-container {
+  background-color: $content-background;
+  min-height: calc(100% - #{$footer-offset});
+  position: relative;
+  -moz-box-shadow:    10px 10px #aaa;
+  -webkit-box-shadow: 10px 10px #aaa;
+  box-shadow:         10px 10px #aaa;
+}
+
+.content {
+  padding-bottom: 80px;
+}
+
+.container-narrow {
+  margin: 0px auto $header-navbar-offset auto;
+  max-width: 850px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+hr {
+  height: 2px;
+  background: #777;
+  width: 90%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.section-heading {
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0px 10px 0px;
+  padding: 6px;
+  color: $section-heading;
+  text-shadow: 0px 2px 1px #171717;
+  background-color: $section-heading-bg;
+}
+
+/* Page-specific rules */
+
+.featured-image {
+  max-height: 330px;
+  max-width: 480px;
+  padding: 10px;
+}
+
+.project-figures {
+  padding: 0;
+
+  figure {
+    display: inline-block;
+    margin: 10px;
+  }
+}
+
+/* video wrapper for vimeo embedding */
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.post {
+  h3.title {
+    position: relative;
+    padding-top: 10px;
+
+    span.date {
+      position: absolute;
+      right: 0;
+      font-size: 0.9em;
+    }
+  }
+
+ .more {
+    margin: 10px 0;
+    text-align: left;
+  }
+}
+
+.post-full .date {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.post-summary-list {
+  list-style: none;
+}
+
+.post-summary-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.post-summary-tagline {
+  font-size: 16px;
+}
+
+.post-summary-date {
+  font-size: 14px;
+}
+
+.title-summary {
+  display: inline-block;
+  padding: 5px;
+  max-width: 600px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+}
+
+/* taglines use h1 small */
+h1 small {
+  font-size: 22px;
+}
+
+.tag_box {
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+
+  li {
+    line-height: 28px;
+
+    i {
+      opacity: 0.9;
+    }
+  }
+
+  .inline li {
+    float: left;
+  }
+
+  a {
+    padding: 3px 6px;
+    margin: 2px;
+    background: #eee;
+    color: #555;
+    border-radius: 3px;
+    text-decoration: none;
+    border: 1px dashed #cccccc;
+
+    span {
+      vertical-align: super;
+      font-size: 0.8em;
+    }
+
+    :hover {
+      background-color: #e5e5e5;
+    }
+
+    :active {
+      background: #57A957;
+      border: 1px solid #4c964d;
+      color: #FFF;
+    }
+  }
+}
+
+/* columns */
+@media only screen and (min-width: 550px) and (max-width: 750px) {
+  .columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .columns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  }
+}
+
+.columns-element {
+  overflow: hidden;
+  break-inside: avoid-column;
+  -webkit-column-break-inside: avoid;
+}
+
+/* 404 */
+#error-404 {
+  top: 50%;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 200px;
+}
+
+/* gl container */
+#glContainer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 360px;
+  height: 360px;
+  display: inline-block;
+}
