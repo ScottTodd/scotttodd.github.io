@@ -58,7 +58,8 @@ hr {
   background: #777;
   width: 90%;
   text-align: center;
-  margin: 20px auto; }
+  margin: 20px auto;
+  border: none; }
 
 .section-heading {
   display: inline-block;
