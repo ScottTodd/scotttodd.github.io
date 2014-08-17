@@ -40,9 +40,9 @@ body {
   background-color: #dddddd;
   min-height: calc(100% - 40px);
   position: relative;
-  -moz-box-shadow: 10px 10px #aaa;
-  -webkit-box-shadow: 10px 10px #aaa;
-  box-shadow: 10px 10px #aaa; }
+  -webkit-box-shadow: 10px 10px #aaaaaa;
+  -moz-box-shadow: 10px 10px #aaaaaa;
+  box-shadow: 10px 10px #aaaaaa; }
 
 .content {
   padding-bottom: 80px; }
@@ -111,7 +111,12 @@ hr {
   font-weight: bold; }
 
 .post-summary-list {
-  list-style: none; }
+  list-style: none;
+  background-color: #c2c2c2;
+  padding: 10px;
+  -webkit-box-shadow: 6px 6px #aaaaaa;
+  -moz-box-shadow: 6px 6px #aaaaaa;
+  box-shadow: 6px 6px #aaaaaa; }
 
 .post-summary-title {
   font-size: 20px;
