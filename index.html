@@ -1,0 +1,56 @@
+---
+layout: page
+title: Home
+tagline: My personal page and portfolio.
+group: navigation
+---
+{% include JB/setup %}
+
+<div class="background-region page-preview">
+    <a href="/pages/about.html">
+        <div class="preview-title">About Me</div>
+    </a>
+    <hr>
+    TODO: snippet, image, something for this preview.
+</div>
+
+<div class="background-region page-preview">
+    <a href="/pages/projects.html">
+        <div class="preview-title">Projects</div>
+    </a>
+    <hr>
+    TODO: snippet, image, something for this preview.
+</div>
+
+<div class="background-region page-preview">
+    <a href="/pages/resume.html">
+        <div class="preview-title">Resume</div>
+    </a>
+    <hr>
+    TODO: snippet, image, something for this preview.
+</div>
+
+<div class="background-region page-preview">
+    <a href="https://github.com/scotttodd/">
+        <div class="preview-title">Code</div>
+    </a>
+    <hr>
+    TODO: snippet, image, something for this preview.
+</div>
+
+<br><hr><br>
+
+<h2>Featured Projects</h2>
+
+<div>
+  {% for post in site.posts %}
+    {% if post.title_images %}
+      {% if post.title_images.first %}
+        {% capture image %}{{ post.title_images.first }}{% endcapture %}
+      {% else %}
+        {% capture image %}{{ post.title_images }}{% endcapture %}
+      {% endif %}
+      <a href="{{ post.url }}"><img src="{{ image }}" class="featured-image" title="{{ post.title }}"></a>
+    {% endif %}
+  {% endfor %}
+</div>
