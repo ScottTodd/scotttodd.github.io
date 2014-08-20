@@ -6,51 +6,28 @@ group: navigation
 ---
 {% include JB/setup %}
 
-<div class="background-region page-preview">
-    <a href="/pages/about.html">
-        <div class="preview-title">About Me</div>
-    </a>
+<center>
+<a href="/pages/about.html"><div class="background-region page-preview">
+    <div class="preview-title">About Me</div>
     <hr>
-    TODO: snippet, image, something for this preview.
-</div>
+    <img src="/assets/images/about-preview.png">
+</div></a>
 
-<div class="background-region page-preview">
-    <a href="/pages/projects.html">
-        <div class="preview-title">Projects</div>
-    </a>
+<a href="/pages/projects.html" class="hover-black"><div class="background-region page-preview">
+    <div class="preview-title">Projects</div>
     <hr>
-    TODO: snippet, image, something for this preview.
-</div>
+    <img src="/assets/projects/painterly-rendering/magma-bunny.png">
+</div></a>
 
-<div class="background-region page-preview">
-    <a href="/pages/resume.html">
-        <div class="preview-title">Resume</div>
-    </a>
+<a href="/pages/resume.html"><div class="background-region page-preview">
+    <div class="preview-title">Resume</div>
     <hr>
-    TODO: snippet, image, something for this preview.
-</div>
+    <img src="/assets/images/resume-preview.png">
+</div></a>
 
-<div class="background-region page-preview">
-    <a href="https://github.com/scotttodd/">
-        <div class="preview-title">Code</div>
-    </a>
+<a href="https://github.com/scotttodd/"><div class="background-region page-preview">
+    <div class="preview-title">Code</div>
     <hr>
-    TODO: snippet, image, something for this preview.
-</div>
-
-<br><hr><br>
-
-<h2>Featured Projects</h2>
-
-<div>
-  {% for post in site.posts %}
-    {% if post.title_images %}
-      {% if post.title_images.first %}
-        {% capture image %}{{ post.title_images.first }}{% endcapture %}
-      {% else %}
-        {% capture image %}{{ post.title_images }}{% endcapture %}
-      {% endif %}
-      <a href="{{ post.url }}"><img src="{{ image }}" class="featured-image" title="{{ post.title }}"></a>
-    {% endif %}
-  {% endfor %}
-</div>
+    <img src="/assets/images/code-preview.png">
+</div></a>
+</center>

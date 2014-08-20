@@ -15,7 +15,8 @@ $nav-font: #bbbbbb;
 
 $link: #0088cc;
 $link-hover: #4477af;
-$link-hover-bg: #12122c;
+$dark-hover-bg: #12122c;
+$light-hover-bg: #d7ceb9;
 
 $section-heading: #e5e5e5;
 $section-heading-bg: #454545;
@@ -56,7 +57,7 @@ body {
   .nav > li {
     a:focus, a:hover {
       color: $link-hover;
-      background-color: $link-hover-bg;
+      background-color: $dark-hover-bg;
     }
   }
 }
@@ -71,7 +72,7 @@ body {
 
 .page-header {
   margin: 0;
-  padding: 20px 0px 30px;
+  padding: 20px 0px 10px;
   margin-top: $header-navbar-offset;
   border: none;
 }
@@ -130,11 +131,30 @@ hr {
 /* Page-specific rules */
 
 .page-preview {
-  width: 380px;
+  width: 300px;
   height: 300px;
   display: inline-block;
   padding: 10px;
   margin: 10px;
+
+  -webkit-transition: background 300ms ease;
+     -moz-transition: background 300ms ease;
+      -ms-transition: background 300ms ease;
+       -o-transition: background 300ms ease;
+          transition: background 300ms ease;
+
+  &:hover {
+    background-color: $light-hover-bg;
+  }
+
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    max-height: 260px;
+    vertical-align: top;
+    display: block;
+  }
 
   .preview-title {
     font-size: 24px;
@@ -145,7 +165,6 @@ hr {
     width: 100%;
   }
 }
-
 
 .featured-image {
   max-height: 330px;
@@ -230,6 +249,7 @@ hr {
 /* taglines use h1 small */
 h1 small {
   font-size: 22px;
+  color: #777777;
 }
 
 .tag_box {
@@ -263,14 +283,9 @@ h1 small {
       font-size: 0.8em;
     }
 
-    :hover {
-      background-color: #e5e5e5;
-    }
-
-    :active {
-      background: #57A957;
-      border: 1px solid #4c964d;
-      color: #FFF;
+    &:hover {
+      background-color: $light-hover-bg;
+      border: 1px dashed #444444;
     }
   }
 }
