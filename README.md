@@ -21,12 +21,12 @@ Here are the main areas that I've worked in:
 ├─── pages (general webpages)
 ├─── _posts (project webpages)
 ├─── assets (supporting non-text content)
+│   ├─── css
 │   ├─── images
 │   ├─── js
 │   ├─── projects
 │   └─── themes
 │       └─── custom
-│           └─── css
 └─── _includes (layouts and page templates)
     └─── themes
         └─── custom
