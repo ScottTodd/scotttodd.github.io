@@ -2,6 +2,16 @@
 ---
 
 /* Colors */
+
+$primary-blue: #C4CCD0;
+$secondary-blue: #ACBED2;
+$gray-1: #DDDDD8;
+$gray-2: #C5C5BC;
+$gray-3: #88887D;
+$gray-4: #565A5A;
+$gray-5: #3F4343;
+$gray-6: #141616;
+
 $page-background: #b6c2c9;
 $content-background: #ddddd8;
 $region-background: #c4ccd0;
@@ -15,7 +25,7 @@ $nav-font: #bbbbbb;
 
 $link: #0088cc;
 $link-hover: #4477af;
-$dark-hover-bg: #12122c;
+$dark-hover-bg: #394A4A;
 $light-hover-bg: #d7ceb9;
 
 $section-heading: #e5e5e5;
@@ -24,7 +34,7 @@ $section-heading-bg: #454545;
 /* Measurements */
 $navbar-height: 60px;
 $header-navbar-offset: 30px;
-$footer-offset: 40px;
+$footer-offset: 50px;
 
 html {
   height: calc(100% - #{$navbar-height});
@@ -37,28 +47,52 @@ body {
 
 .navbar {
   margin-bottom: 0px;
+  background-image: url(/assets/images/dark-matter.png);
+  background-repeat: repeat;
+  border: 0;
+  border-radius: 0;
 
-  .nav {
-    float: right;
+  .navbar-toggle, .navbar-toggle:focus {
+    background-color: $gray-5;
+    border-color: $gray-6;
   }
 
-  .brand, .nav > li > a {
+  .navbar-toggle:hover {
+    background-color: $gray-4;
+  }
+
+  .navbar-toggle > .icon-bar {
+    background-color: $gray-3;
+  }
+
+  .navbar-collapse {
+    border-color: $gray-4;
+  }
+
+  .navbar-brand, .nav > li > a {
     text-shadow: none;
-    color: $nav-font;
+    color: $gray-2;
+    border: 1px solid $gray-5;
+    margin: 2px;
+    padding-top: 9px;
+    padding-bottom: 9px;
   }
 
-  .navbar-inner {
-    background-image: url(/assets/images/dark-matter.png);
-    background-repeat: repeat;
-    border: 0;
-    border-radius: 0;
+  .navbar-brand {
+    height: 40px;
+    padding: 10px 10px;
   }
 
   .nav > li {
     a:focus, a:hover {
-      color: $link-hover;
-      background-color: $dark-hover-bg;
+      color: $secondary-blue;
+      background-image: url(/assets/images/dark-matter-lighter.png);
     }
+  }
+
+  .navbar-brand:focus, .navbar-brand:hover {
+      color: $secondary-blue;
+      background-image: url(/assets/images/dark-matter-lighter.png);
   }
 }
 
@@ -110,7 +144,7 @@ hr {
 
 .background-region {
   padding: 10px;
-  background-color: $region-background;
+  background-color: $primary-blue;
   -webkit-box-shadow: 6px 6px $shadow-content;
      -moz-box-shadow: 6px 6px $shadow-content;
           box-shadow: 6px 6px $shadow-content;
