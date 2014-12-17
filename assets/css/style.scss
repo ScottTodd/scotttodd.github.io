@@ -32,9 +32,9 @@ $section-heading: #e5e5e5;
 $section-heading-bg: #454545;
 
 /* Measurements */
-$navbar-height: 60px;
+$navbar-height: 52px;
 $header-navbar-offset: 30px;
-$footer-offset: 50px;
+$footer-offset: 60px;
 
 html {
   height: calc(100% - #{$navbar-height});
