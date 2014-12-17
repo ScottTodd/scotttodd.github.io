@@ -15,12 +15,15 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
 
-  <!-- styles -->
+  <!-- Third party styles -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-  <!-- <link rel="stylesheet" href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.2.2.2.min.css"> -->
+  <link href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.6/css/ripples.min.css" rel="stylesheet">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.6/css/material-wfont.min.css" rel="stylesheet">
+
+  <!-- Site custom styles -->
   <link rel="stylesheet" href="/assets/css/style.css?body=1" type="text/css" media="all">
 
-  <!-- fav and touch icons, thanks to http://realfavicongenerator.net/ -->
+  <!-- Fav and touch icons, thanks to http://realfavicongenerator.net/ -->
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicon/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicon/apple-touch-icon-114x114.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicon/apple-touch-icon-72x72.png">
@@ -40,7 +43,7 @@
   <meta name="msapplication-TileImage" content="/assets/images/favicon/mstile-144x144.png">
   <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
 
-  <!-- atom & rss feed -->
+  <!-- ATOM & RSS feed -->
   <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
   <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
 
@@ -89,11 +92,19 @@
     </div>
   </div>
 
-  <!-- scripts (end of document so pages load faster) -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <!-- Third party scripts (end of document so pages load faster) -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.6/js/ripples.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.6/js/material.min.js"></script>
 
-  <!-- additional scripts -->
+  <script>
+    $(document).ready(function() {
+        $.material.init();
+    });
+  </script>
+
+  <!-- Additional scripts -->
   {% include JB/analytics %}
 </body>
 
