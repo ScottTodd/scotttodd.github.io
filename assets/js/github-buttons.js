@@ -1,6 +1,6 @@
 // Thanks to https://github.com/erjjones/erjjones.github.com
 
-jQuery(document).ready(function() {
+$(document).ready(function() {
     $('#gf').text('GitHub Followers');
     $('#gfr').text('GitHub Repos');
 
