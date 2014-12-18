@@ -1,6 +1,8 @@
 scotttodd.github.io
 ===================
 
+[![Build Status](https://travis-ci.org/ScottTodd/scotttodd.github.io.svg?branch=master)](https://travis-ci.org/ScottTodd/scotttodd.github.io)
+
 This is the source for my [website](http://scotttodd.github.io/).
 
 It uses [Github Pages](https://pages.github.com/) for easy hosting, [Jekyll](http://jekyllrb.com/) for static site generation, and [Jekyll Bootstrap](http://jekyllbootstrap.com/) for its many blog features and theming support.
