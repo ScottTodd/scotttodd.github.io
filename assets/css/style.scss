@@ -107,12 +107,10 @@ body {
   }
 }
 
-#footer {
-  bottom: 10px;
-  position: absolute;
-  min-width: 100%;
+.footer {
+  padding-bottom: 10px;
   text-align: center;
-  left: 0px;
+  min-width: 100%;
 }
 
 .page-header {
@@ -126,10 +124,6 @@ body {
   background-color: $content-background;
   min-height: calc(100% - #{$footer-offset});
   position: relative;
-}
-
-.content {
-  padding-bottom: 80px;
 }
 
 .container-narrow {

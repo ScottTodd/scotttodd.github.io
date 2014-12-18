@@ -9,7 +9,7 @@ permalink: about/
 
 <link rel="stylesheet" href="/assets/css/about.css">
 
-<img src="/assets/images/scott-todd.png" class="photo-id">
+<img src="/assets/images/scott-todd.png" class="photo-id img-responsive">
 
 Hi! I'm Scott!
 
