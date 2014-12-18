@@ -292,14 +292,16 @@ h1 small {
   color: #777777;
 }
 
+li > i {
+  opacity: 0.9;
+  font-size: 13pt;
+  top: 4px;
+  position: relative;
+}
+
 .tag_box {
   margin: 0;
   overflow: hidden;
-
-  li > i {
-      opacity: 0.9;
-      font-size: 12pt;
-  }
 
   .inline li {
     float: left;
