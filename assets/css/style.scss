@@ -50,7 +50,6 @@ body {
   margin-bottom: 0px;
   background-color: $gray-5;
   background-image: url(/assets/images/dark-matter.png);
-  box-shadow: 0 3px 10px rgba(0,0,0,.23),0 3px 10px rgba(0,0,0,.16);
   background-repeat: repeat;
   border: 0;
   border-radius: 0;
@@ -130,7 +129,6 @@ body {
   background-color: $content-background;
   min-height: calc(100% - #{$footer-offset});
   position: relative;
-  box-shadow: 0 3px 10px rgba(0,0,0,.23),0 3px 10px rgba(0,0,0,.16);
 }
 
 .content {
@@ -295,16 +293,12 @@ h1 small {
 }
 
 .tag_box {
-  list-style: none;
   margin: 0;
   overflow: hidden;
 
-  li {
-    line-height: 28px;
-
-    i {
+  li > i {
       opacity: 0.9;
-    }
+      font-size: 12pt;
   }
 
   .inline li {
@@ -314,23 +308,11 @@ h1 small {
   a {
     padding: 3px 6px;
     margin: 2px;
-    background: $gray-1;
-    color: #555;
-    text-decoration: none;
-    box-shadow: 0 1px 2px rgba(0,0,0,.15),0 1px 2px rgba(0,0,0,.12);
+    text-transform: none;
 
     span {
       vertical-align: super;
       font-size: 0.8em;
-    }
-
-    &:hover {
-      box-shadow: 0 3px 10px rgba(0,0,0,.23),0 3px 10px rgba(0,0,0,.16);
-      -webkit-transition: box-shadow 300ms ease;
-         -moz-transition: box-shadow 300ms ease;
-          -ms-transition: box-shadow 300ms ease;
-           -o-transition: box-shadow 300ms ease;
-              transition: box-shadow 300ms ease;
     }
   }
 }
