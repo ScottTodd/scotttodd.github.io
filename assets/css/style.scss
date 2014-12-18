@@ -5,7 +5,7 @@
 
 $primary-blue: #C4CCD0;
 $secondary-blue: #ACBED2;
-$gray-1: #E8E8E6;
+$gray-1: #E2E2E0;
 $gray-2: #C5C5BC;
 $gray-3: #88887D;
 $gray-4: #565A5A;
@@ -149,6 +149,10 @@ body {
 
 .panel-default > .panel-heading, .panel > .panel-heading, .panel-footer {
   background-color: $gray-1;
+}
+
+.panel-footer {
+  padding: 0px;
 }
 
 hr {
@@ -304,6 +308,7 @@ li > i {
 
 .tag_box {
   margin: 0;
+  padding: 10px;
   overflow: hidden;
 
   .inline li {
