@@ -72,10 +72,26 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/about/">About Me</a></li>
-          <li><a href="/projects/">Projects</a></li>
-          <li><a href="/resume/">Resume</a></li>
+          {% comment %}
+          <!--
+            Add a link for each page in the navigation list.
+            Set the current page active to highlight it.
+            For projects pages, set the projects link active since their path
+            contains '/projects/'.
+          -->
+          {% endcomment %}
+
+          {% for link in page.navigation %}
+          <li
+            {% if link.url == "/" and page.url == "/" %}
+              class="active"
+            {% elsif link.url != "/" and page.url contains link.url %}
+              class="active"
+            {% endif %}
+          >
+              <a href="{{link.url}}">{{link.text}}</a>
+          </li>
+          {% endfor %}
         </ul>
       </div>
     </div>

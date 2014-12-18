@@ -22,6 +22,7 @@ $shadow-page: $page-background - $shadow-value;
 $shadow-content: $content-background - $shadow-value;
 
 $nav-font: #bbbbbb;
+$nav-highlight: rgba(120,120,120,0.2);
 
 $link: #0088cc;
 $link-hover: #4477af;
@@ -79,21 +80,23 @@ body {
     padding-bottom: 9px;
   }
 
+  .nav > .active {
+    background-color: $nav-highlight;
+  }
+
   .navbar-brand {
     padding: 10px 10px;
     max-height: 48px;
   }
 
-  .nav > li {
-    a:focus, a:hover {
+  .nav > li:focus, .nav > li:hover {
     -webkit-transition: background 300ms ease;
        -moz-transition: background 300ms ease;
         -ms-transition: background 300ms ease;
          -o-transition: background 300ms ease;
             transition: background 300ms ease;
-      color: $secondary-blue;
-      background-color: rgba(120,120,120,0.2);
-    }
+    color: $secondary-blue;
+    background-color: $nav-highlight;
   }
 
   .navbar-brand:focus, .navbar-brand:hover {
@@ -103,7 +106,7 @@ body {
          -o-transition: background 300ms ease;
             transition: background 300ms ease;
     color: $secondary-blue;
-    background-color: rgba(120,120,120,0.2);
+    background-color: $nav-highlight;
   }
 }
 
