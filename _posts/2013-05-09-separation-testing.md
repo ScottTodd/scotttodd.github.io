@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Separation Testing"
+title: Separation Testing
 tagline: Campaign of ten Portal 2 levels.
-description: ""
+description: Campaign of ten Portal 2 levels.
 category: projects
 tags: [Games]
-title_images: /assets/projects/separation-testing/level2_small.png
+title_images: [/assets/projects/separation-testing/level2_small.png]
 ---
 {% include JB/setup %}
 

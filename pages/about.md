@@ -1,13 +1,12 @@
 ---
 layout: page
-title: "About Me"
-description: "About Me"
+title: About Me
+description: About Me
 group: navigation
 permalink: about/
+extra_css: /assets/css/about.css
 ---
 {% include JB/setup %}
-
-<link rel="stylesheet" href="/assets/css/about.css">
 
 <img src="/assets/images/scott-todd.png" class="photo-id img-responsive">
 

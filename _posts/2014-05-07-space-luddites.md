@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Space Luddites"
+title: Space Luddites
 tagline: Cooperative sidescrolling beat-em-up using Unity3D.
-description: ""
+description: Cooperative sidescrolling beat-em-up using Unity3D.
 category: projects
 tags: [Games, Unity3D, C#]
-title_images: /assets/projects/space-luddites/space-luddites-title_small.png
+title_images: [/assets/projects/space-luddites/space-luddites-title_small.png]
 ---
 {% include JB/setup %}
 

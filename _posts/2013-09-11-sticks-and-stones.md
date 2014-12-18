@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Sticks & Stones"
+title: Sticks & Stones
 tagline: Artistic shoot-em-up made using Python and pygame.
+description: Artistic shoot-em-up made using Python and pygame.
 category: projects
 tags: [Games, Python, pygame]
 title_images: [/assets/projects/sticks-and-stones/stage-3.png, /assets/projects/sticks-and-stones/stage-2.png]

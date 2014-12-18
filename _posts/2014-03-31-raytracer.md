@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Raytracer"
+title: Raytracer
 tagline: Ray Tracing, Radiosity, and Photon Mapping in C++ and OpenGL.
+description: Ray Tracing, Radiosity, and Photon Mapping in C++ and OpenGL.
 category: projects
 tags: [Graphics, C++, OpenGL]
 title_images: [/assets/projects/raytracer/raytracing.png, /assets/projects/raytracer/radiosity.png]

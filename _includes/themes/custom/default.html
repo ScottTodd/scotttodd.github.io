@@ -4,8 +4,24 @@
 <head>
   <meta charset="utf-8">
   <title>{{ site.title_prefix }}{{ page.title }}</title>
-  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+  <meta property="og:title" content="{{ site.title_prefix }}{{ page.title }}">
+  <meta name="twitter:title" content="{{ site.title_prefix }}{{ page.title }}">
+
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    <meta name="twitter:description" content="{{ page.description }}">
+    <meta property="og:description" content="{{ page.description }}">
+  {% endif %}
+
   <meta name="author" content="{{ site.author.name }}">
+
+  {% if page.title_images %}
+    {% assign main_image = page.title_images.first %}
+  {% else %}
+    {% assign main_image = "/assets/images/scott-todd.png" %}
+  {% endif %}
+  <meta property="og:image" content="{{ main_image }}">
+  <meta name="twitter:image" content="{{ main_image }}">
 
   <!-- Enable responsive viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,6 +38,9 @@
 
   <!-- Site custom styles -->
   <link rel="stylesheet" href="/assets/css/style.css?body=1" type="text/css" media="all">
+  {% for css_name in page.extra_css %}
+    <link rel="stylesheet" href="{{ css_name }}" type="text/css" media="all">
+  {% endfor %}
 
   <!-- Third party scripts (that are needed on page load) -->
   <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

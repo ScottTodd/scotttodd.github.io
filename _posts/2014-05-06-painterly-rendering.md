@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Painterly Rendering"
+title: Painterly Rendering
 tagline: Real-time painterly rendering using WebGL.
-description: ""
+description: Real-time painterly rendering using WebGL.
 category: projects
 tags: [Graphics, WebGL, CoffeeScript, three.js, Open Source]
 title_images: [/assets/projects/painterly-rendering/magma-bunny.png, /assets/projects/painterly-rendering/the-scream.png]
