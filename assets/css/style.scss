@@ -163,14 +163,14 @@ hr {
 .page-preview {
   width: 320px;
   height: 340px;
+  max-width: 100%;
   display: inline-block;
   padding: 10px;
-  margin: 10px;
+  margin-right: 20px;
 
   img {
     margin-left: auto;
     margin-right: auto;
-    max-width: 300px;
     max-height: 260px;
     vertical-align: top;
     display: block;
