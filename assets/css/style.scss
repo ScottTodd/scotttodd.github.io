@@ -29,9 +29,6 @@ $link-hover: #4477af;
 $dark-hover-bg: #394A4A;
 $light-hover-bg: #d7ceb9;
 
-$section-heading: #e5e5e5;
-$section-heading-bg: #454545;
-
 /* Measurements */
 $navbar-height: 52px;
 $header-navbar-offset: 30px;
@@ -137,7 +134,7 @@ body {
 
 .container-narrow {
   margin: 0px auto $header-navbar-offset auto;
-  max-width: 880px;
+  max-width: 900px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -161,16 +158,6 @@ hr {
   text-align: center;
   margin: 20px auto;
   border: none;
-}
-
-.section-heading {
-  display: inline-block;
-  font-size: 16px;
-  margin: 10px 0px 10px 0px;
-  padding: 6px;
-  color: $section-heading;
-  text-shadow: 0px 2px 1px #171717;
-  background-color: $section-heading-bg;
 }
 
 /* Page-specific rules */
@@ -208,13 +195,29 @@ hr {
   padding: 10px;
 }
 
-.project-figures {
+.project-images {
   padding: 0;
+  text-align: center;
 
   figure {
     display: inline-block;
-    margin: 10px;
+    margin: 5px;
   }
+
+  img {
+    padding: 10px 0px;
+    max-height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.project-images-500h > img {
+  max-height: 500px;
+}
+
+.project-images-450h > figure > img, .project-images-450h > img {
+  max-height: 450px;
 }
 
 /* video wrapper for vimeo embedding */
