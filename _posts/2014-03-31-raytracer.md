@@ -9,24 +9,24 @@ title_images: [/assets/projects/raytracer/raytracing.png, /assets/projects/raytr
 {% include JB/setup %}
 
 
-<div class="project-figures">
+<div class="project-images">
     <figure>
-        <img src="/assets/projects/raytracer/raytracing.png" title="Ray tracing with reflections and soft shadows" class="project-padded">
+        <img src="/assets/projects/raytracer/raytracing.png" title="Ray tracing with reflections and soft shadows" class="img-responsive img-responsive">
         <figcaption>Ray tracing with reflections and soft shadows</figcaption>
     </figure>
     <figure>
-        <img src="/assets/projects/raytracer/raytracing-texture.png" title="Ray tracing using textures" class="project-padded">
+        <img src="/assets/projects/raytracer/raytracing-texture.png" title="Ray tracing using textures" class="img-responsive img-responsive">
         <figcaption>Ray tracing using textures</figcaption>
     </figure>
 </div>
 
 <hr>
 
-<div class="section-heading">Overview</div>
+<h3>Overview</h3>
 
 This was a <a href="http://www.cs.rpi.edu/~cutler/classes/advancedgraphics/S14/hw3_rendering.php">homework assignment</a> for <a href="http://www.cs.rpi.edu/~cutler/classes/advancedgraphics/S14/index.php">Advanced Computer Graphics</a>. This project focused on implementing rendering using ray tracing, radiosity, and photon mapping.
 
-<div class="section-heading">My Contributions</div>
+<h3>My Contributions</h3>
 
 Ray Tracing
 
@@ -48,26 +48,26 @@ Photon Mapping
 
 <hr>
 
-<div class="project-figures">
+<div class="project-images">
     <figure>
-        <img src="/assets/projects/raytracer/radiosity.png" title="Radiosity within the Cornell Box" class="project-padded" height="400px" width="400px">
+        <img src="/assets/projects/raytracer/radiosity.png" title="Radiosity within the Cornell Box" class="img-responsive">
         <figcaption>Radiosity within the <a href="http://en.wikipedia.org/wiki/Cornell_box">Cornell box</a></figcaption>
     </figure>
     <figure>
-        <img src="/assets/projects/raytracer/radiosity-undistributed.png" title="Undistributed radiosity during iterative solving" class="project-padded" height="400px" width="400px">
+        <img src="/assets/projects/raytracer/radiosity-undistributed.png" title="Undistributed radiosity during iterative solving" class="img-responsive">
         <figcaption>Undistributed radiosity during iterative solving</figcaption>
     </figure>
 </div>
 
 <hr>
 
-<div class="project-figures">
+<div class="project-images">
     <figure>
-        <img src="/assets/projects/raytracer/photon-mapping.png" title="Photon mapping caustics using a reflective ring on a flat surface" class="project-padded" height="400px" width="400px">
+        <img src="/assets/projects/raytracer/photon-mapping.png" title="Photon mapping caustics using a reflective ring on a flat surface" class="img-responsive">
         <figcaption>Photon mapping caustics using a reflective ring</figcaption>
     </figure>
     <figure>
-        <img src="/assets/projects/raytracer/photon-mapping-exaggerated.png" title="Photon mapping results exaggerated (upscaled)" class="project-padded" height="400px" width="400px">
+        <img src="/assets/projects/raytracer/photon-mapping-exaggerated.png" title="Photon mapping results exaggerated (upscaled)" class="img-responsive">
         <figcaption>Photon mapping results exaggerated (upscaled)</figcaption>
     </figure>
 </div>

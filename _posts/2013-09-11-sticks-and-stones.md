@@ -12,13 +12,13 @@ title_images: [/assets/projects/sticks-and-stones/stage-3.png, /assets/projects/
 
 <br>
 
-<div class="section-heading">Overview</div>
+<h3>Overview</h3>
 
 This game was made for <a href="http://www.cogsci.rpi.edu/~destem/gamedev/">Game Development 1</a> in two weeks time. We were tasked with creating a "story-like shmup-like" (Shoot 'em up) in a creative setting using Python and <a href="http://www.pygame.org/">pygame</a>.
 
 Sticks & Stones is a game about an argument between two children that takes place on a scrolling whiteboard. As their argument escalates, the drawings become more violent. When enemies are defeated, they sometimes leave behind words representative of the current state of the argument.
 
-<div class="section-heading">Team Members</div>
+<h3>Team Members</h3>
 
 * Cameron Chu: Programmer
 * [Kevin Fung](http://www.tinycranes.com/): Programmer
@@ -26,7 +26,7 @@ Sticks & Stones is a game about an argument between two children that takes plac
 * [Scott Todd]({{ HOME_PATH }}): Lead Programmer
 * David Vanderzee: Audio, Programmer
 
-<div class="section-heading">My Contributions</div>
+<h3>My Contributions</h3>
 
 I coded:
 
@@ -37,20 +37,20 @@ I coded:
 
 <hr>
 
-<div class="project-figures">
+<div class="project-images project-images-450h">
     <figure>
-        <img src="/assets/projects/sticks-and-stones/stage-1.png" class="project-padded" height="400px" width="400px">
+        <img src="/assets/projects/sticks-and-stones/stage-1.png" class="img-responsive">
     </figure>
     <figure>
-        <img src="/assets/projects/sticks-and-stones/stage-2.png" class="project-padded" height="400px" width="400px">
+        <img src="/assets/projects/sticks-and-stones/stage-2.png" class="img-responsive">
     </figure>
 </div>
 
-<div class="project-figures">
+<div class="project-images project-images-450h">
     <figure>
-        <img src="/assets/projects/sticks-and-stones/stage-3.png" class="project-padded" height="400px" width="400px">
+        <img src="/assets/projects/sticks-and-stones/stage-3.png" class="img-responsive">
     </figure>
     <figure>
-        <img src="/assets/projects/sticks-and-stones/stage-4.png" class="project-padded" height="400px" width="400px">
+        <img src="/assets/projects/sticks-and-stones/stage-4.png" class="img-responsive">
     </figure>
 </div>

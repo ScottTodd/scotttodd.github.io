@@ -3,6 +3,7 @@ layout: page
 title: "About Me"
 description: "About Me"
 group: navigation
+permalink: about/
 ---
 {% include JB/setup %}
 
@@ -27,12 +28,12 @@ Before working for Google, I spent three summers interning at <a href="http://ww
 <tbody>
     <tr>
         <td>Email:</td>
-        <td><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></td>
+        <td><a class="btn btn-default btn-raised btn-sm" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></td>
     </tr>
 
     <tr>
         <td>LinkedIn:</td>
-        <td><a href="https://www.linkedin.com/pub/scott-todd/45/5ab/459">Profile</a></td>
+        <td><a class="btn btn-default btn-raised btn-sm" href="https://www.linkedin.com/pub/scott-todd/45/5ab/459">Profile</a></td>
     </tr>
 
     <!-- GitHub Witgets from http://www.newmediacampaigns.com/blog/a-beautiful-jquery-github-widget -->
@@ -40,9 +41,9 @@ Before working for Google, I spent three summers interning at <a href="http://ww
     <tr>
         <td>GitHub:</td>
         <td>
-            <a href="https://github.com/ScottTodd">Profile</a>&nbsp;
-            <a class="btn btn-success btn-mini" id="gf" href="https://github.com/scotttodd/followers" title="Go to ScottTodd's GitHub followers page" target="_blank"></a>&nbsp;
-            <a class="btn btn-success btn-mini" id="gfr" href="https://github.com/scotttodd/repositories" title="Go to ScottTodd's GitHub repositories page" target="_blank"></a>
+            <a class="btn btn-default btn-raised btn-sm" href="https://github.com/ScottTodd">Profile</a>&nbsp;
+            <a class="btn btn-default btn-raised btn-sm" id="gf" href="https://github.com/scotttodd/followers" title="Go to ScottTodd's GitHub followers page" target="_blank"></a>&nbsp;
+            <a class="btn btn-default btn-raised btn-sm" id="gfr" href="https://github.com/scotttodd/repositories" title="Go to ScottTodd's GitHub repositories page" target="_blank"></a>
         </td>
     </tr>
 </tbody>

@@ -13,7 +13,7 @@ title_images: /assets/projects/space-luddites/space-luddites-title_small.png
 
 <br>
 
-<div class="section-heading">Overview</div>
+<h3>Overview</h3>
 
 This game was the result of three months of work in <a href="http://gamedev2-s14.wp.rpi.edu/">Game Development 2</a>. We used Unity3D with C#.
 
@@ -23,7 +23,7 @@ Play the game in your browser <a href="/assets/projects/space-luddites/web-build
 
 Check out our <a href="http://spaceluddites.weebly.com/">website</a> for more images and information!
 
-<div class="section-heading">Team Members</div>
+<h3>Team Members</h3>
 
 * [Annie Sardelis](http://asardelis3.wix.com/portfolio/): Artist, Initial Concept
 * Brennan Cushin: Programmer
@@ -31,7 +31,7 @@ Check out our <a href="http://spaceluddites.weebly.com/">website</a> for more im
 * [Neale LaPlante Johnson](http://diokatsu.wix.com/portfolio/): Writer, Producer
 * [Scott Todd]({{ HOME_PATH }}): Lead Programmer
 
-<div class="section-heading">My Contributions</div>
+<h3>My Contributions</h3>
 
 I wrote most of the non-AI code, including:
 
@@ -46,10 +46,12 @@ I wrote most of the non-AI code, including:
 
 <hr>
 
-<a href="/assets/projects/space-luddites/character-select_large.png"><img src="/assets/projects/space-luddites/character-select.png"></a>
+<div class="project-images">
+    <a href="/assets/projects/space-luddites/character-select_large.png"><img src="/assets/projects/space-luddites/character-select.png" class="img-responsive"></a>
 
-<a href="/assets/projects/space-luddites/spaceballer-ultimate_large.png"><img src="/assets/projects/space-luddites/spaceballer-ultimate.png"></a>
+    <a href="/assets/projects/space-luddites/spaceballer-ultimate_large.png"><img src="/assets/projects/space-luddites/spaceballer-ultimate.png" class="img-responsive"></a>
 
-<a href="/assets/projects/space-luddites/robot-ultimate_large.png"><img src="/assets/projects/space-luddites/robot-ultimate.png"></a>
+    <a href="/assets/projects/space-luddites/robot-ultimate_large.png"><img src="/assets/projects/space-luddites/robot-ultimate.png" class="img-responsive"></a>
 
-<a href="/assets/projects/space-luddites/spaceballer-slide_large.png"><img src="/assets/projects/space-luddites/spaceballer-slide.png"></a>
+    <a href="/assets/projects/space-luddites/spaceballer-slide_large.png"><img src="/assets/projects/space-luddites/spaceballer-slide.png" class="img-responsive"></a>
+</div>

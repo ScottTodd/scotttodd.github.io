@@ -2,6 +2,16 @@
 ---
 
 /* Colors */
+
+$primary-blue: #C4CCD0;
+$secondary-blue: #ACBED2;
+$gray-1: #E2E2E0;
+$gray-2: #C5C5BC;
+$gray-3: #88887D;
+$gray-4: #565A5A;
+$gray-5: #3F4343;
+$gray-6: #141616;
+
 $page-background: #b6c2c9;
 $content-background: #ddddd8;
 $region-background: #c4ccd0;
@@ -12,19 +22,17 @@ $shadow-page: $page-background - $shadow-value;
 $shadow-content: $content-background - $shadow-value;
 
 $nav-font: #bbbbbb;
+$nav-highlight: rgba(120,120,120,0.2);
 
 $link: #0088cc;
 $link-hover: #4477af;
-$dark-hover-bg: #12122c;
+$dark-hover-bg: #394A4A;
 $light-hover-bg: #d7ceb9;
 
-$section-heading: #e5e5e5;
-$section-heading-bg: #454545;
-
 /* Measurements */
-$navbar-height: 60px;
+$navbar-height: 52px;
 $header-navbar-offset: 30px;
-$footer-offset: 40px;
+$footer-offset: 60px;
 
 html {
   height: calc(100% - #{$navbar-height});
@@ -37,28 +45,65 @@ body {
 
 .navbar {
   margin-bottom: 0px;
+  background-color: $gray-5;
+  background-image: url(/assets/images/dark-matter.png);
+  background-repeat: repeat;
+  border: 0;
+  border-radius: 0;
 
-  .nav {
-    float: right;
+  .navbar-toggle, .navbar-toggle:focus {
+    background-color: $gray-5;
+    border-color: $gray-6;
   }
 
-  .brand, .nav > li > a {
+  .navbar-toggle:hover {
+    background-color: $gray-4;
+  }
+
+  .navbar-toggle > .icon-bar {
+    background-color: $gray-3;
+  }
+
+  .navbar-collapse {
+    border-color: $gray-4;
+  }
+
+  .navbar-brand, .nav > li > a {
     text-shadow: none;
-    color: $nav-font;
+    color: $gray-2;
+    line-height: 30px;
+    margin: 2px;
+    padding-top: 9px;
+    padding-bottom: 9px;
   }
 
-  .navbar-inner {
-    background-image: url(/assets/images/dark-matter.png);
-    background-repeat: repeat;
-    border: 0;
-    border-radius: 0;
+  .nav > .active {
+    background-color: $nav-highlight;
   }
 
-  .nav > li {
-    a:focus, a:hover {
-      color: $link-hover;
-      background-color: $dark-hover-bg;
-    }
+  .navbar-brand {
+    padding: 10px 10px;
+    max-height: 48px;
+  }
+
+  .nav > li:focus, .nav > li:hover {
+    -webkit-transition: background 300ms ease;
+       -moz-transition: background 300ms ease;
+        -ms-transition: background 300ms ease;
+         -o-transition: background 300ms ease;
+            transition: background 300ms ease;
+    color: $secondary-blue;
+    background-color: $nav-highlight;
+  }
+
+  .navbar-brand:focus, .navbar-brand:hover {
+    -webkit-transition: background 300ms ease;
+       -moz-transition: background 300ms ease;
+        -ms-transition: background 300ms ease;
+         -o-transition: background 300ms ease;
+            transition: background 300ms ease;
+    color: $secondary-blue;
+    background-color: $nav-highlight;
   }
 }
 
@@ -81,11 +126,6 @@ body {
   background-color: $content-background;
   min-height: calc(100% - #{$footer-offset});
   position: relative;
-  -webkit-box-shadow: 10px 10px $shadow-page;
-     -moz-box-shadow: 10px 10px $shadow-page;
-          box-shadow: 10px 10px $shadow-page;
-  outline: 2px solid $content-outline;
-  outline-offset: -4px;
 }
 
 .content {
@@ -94,9 +134,25 @@ body {
 
 .container-narrow {
   margin: 0px auto $header-navbar-offset auto;
-  max-width: 850px;
-  padding-left: 30px;
-  padding-right: 30px;
+  max-width: 900px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-primary:not(.btn-link):not(.btn-flat) {
+  background-color: $primary-blue;
+}
+
+.panel-default {
+  background-color: $primary-blue;
+}
+
+.panel-default > .panel-heading, .panel > .panel-heading, .panel-footer {
+  background-color: $gray-1;
+}
+
+.panel-footer {
+  padding: 0px;
 }
 
 hr {
@@ -108,44 +164,14 @@ hr {
   border: none;
 }
 
-.background-region {
-  padding: 10px;
-  background-color: $region-background;
-  -webkit-box-shadow: 6px 6px $shadow-content;
-     -moz-box-shadow: 6px 6px $shadow-content;
-          box-shadow: 6px 6px $shadow-content;
-  outline: 2px solid $region-outline;
-  outline-offset: -4px;
-}
-
-.section-heading {
-  display: inline-block;
-  font-size: 16px;
-  margin: 10px 0px 10px 0px;
-  padding: 6px;
-  color: $section-heading;
-  text-shadow: 0px 2px 1px #171717;
-  background-color: $section-heading-bg;
-}
-
 /* Page-specific rules */
 
 .page-preview {
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 340px;
   display: inline-block;
   padding: 10px;
   margin: 10px;
-
-  -webkit-transition: background 300ms ease;
-     -moz-transition: background 300ms ease;
-      -ms-transition: background 300ms ease;
-       -o-transition: background 300ms ease;
-          transition: background 300ms ease;
-
-  &:hover {
-    background-color: $light-hover-bg;
-  }
 
   img {
     margin-left: auto;
@@ -158,6 +184,7 @@ hr {
 
   .preview-title {
     font-size: 24px;
+    color: $gray-5;
   }
 
   hr {
@@ -172,13 +199,29 @@ hr {
   padding: 10px;
 }
 
-.project-figures {
+.project-images {
   padding: 0;
+  text-align: center;
 
   figure {
     display: inline-block;
-    margin: 10px;
+    margin: 5px;
   }
+
+  img {
+    padding: 10px 0px;
+    max-height: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.project-images-500h > img {
+  max-height: 500px;
+}
+
+.project-images-450h > figure > img, .project-images-450h > img {
+  max-height: 450px;
 }
 
 /* video wrapper for vimeo embedding */
@@ -221,7 +264,12 @@ hr {
 }
 
 .post-summary-list {
-  list-style: none;
+  padding-left: 15px;
+  padding-right: 5px;
+
+  li {
+    list-style: none;
+  }
 }
 
 .post-summary-title {
@@ -240,8 +288,7 @@ hr {
 .title-summary {
   display: inline-block;
   padding: 5px;
-  max-width: 600px;
-  max-height: 300px;
+  max-height: 380px;
   width: auto;
   height: auto;
 }
@@ -252,18 +299,17 @@ h1 small {
   color: #777777;
 }
 
+li > i {
+  opacity: 0.9;
+  font-size: 13pt;
+  top: 4px;
+  position: relative;
+}
+
 .tag_box {
-  list-style: none;
   margin: 0;
+  padding: 10px;
   overflow: hidden;
-
-  li {
-    line-height: 28px;
-
-    i {
-      opacity: 0.9;
-    }
-  }
 
   .inline li {
     float: left;
@@ -272,22 +318,17 @@ h1 small {
   a {
     padding: 3px 6px;
     margin: 2px;
-    background: #eee;
-    color: #555;
-    border-radius: 3px;
-    text-decoration: none;
-    border: 1px dashed #cccccc;
+    text-transform: none;
 
     span {
       vertical-align: super;
       font-size: 0.8em;
     }
-
-    &:hover {
-      background-color: $light-hover-bg;
-      border: 1px dashed #444444;
-    }
   }
+}
+
+.pager {
+  text-align: inherit;
 }
 
 /* columns */
