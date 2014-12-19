@@ -128,9 +128,23 @@ body {
 
 .container-narrow {
   margin: 0px auto $header-navbar-offset auto;
-  max-width: 900px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 920px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .container-narrow {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container-narrow {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 .btn-primary:not(.btn-link):not(.btn-flat) {
@@ -325,8 +339,7 @@ li > i {
   text-align: inherit;
 }
 
-/* columns */
-@media only screen and (min-width: 550px) and (max-width: 750px) {
+@media only screen and (min-width: 768px) and (max-width: 992px) {
   .columns {
     -webkit-column-count: 2;
        -moz-column-count: 2;
@@ -334,7 +347,7 @@ li > i {
   }
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 992px) {
   .columns {
     -webkit-column-count: 3;
        -moz-column-count: 3;
