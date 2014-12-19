@@ -35,7 +35,6 @@ Before working for Google, I spent three summers interning at <a href="http://ww
         <td><a class="btn btn-default btn-raised btn-sm" href="https://www.linkedin.com/pub/scott-todd/45/5ab/459">Profile</a></td>
     </tr>
 
-    <!-- GitHub Witgets from http://www.newmediacampaigns.com/blog/a-beautiful-jquery-github-widget -->
     <script type="text/javascript" src="/assets/js/github-buttons.js"></script>
     <tr>
         <td>GitHub:</td>
