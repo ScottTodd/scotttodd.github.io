@@ -128,7 +128,7 @@ body {
 
 .container-narrow {
   margin: 0px auto $header-navbar-offset auto;
-  max-width: 920px;
+  max-width: 940px;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -224,11 +224,11 @@ hr {
   }
 }
 
-.project-images-500h > img {
+.project-images-500h img {
   max-height: 500px;
 }
 
-.project-images-450h > figure > img, .project-images-450h > img {
+.project-images-450h img {
   max-height: 450px;
 }
 

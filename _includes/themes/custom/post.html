@@ -7,7 +7,7 @@
     <div class="content">
       {{ content }}
     </div>
-    <br><hr>
+    <br>
     <div class="date">
       <span>{{ page.date | date: '%B %-d, %Y' }}.</span>
     </div>
@@ -28,7 +28,7 @@
       </ul>
     {% endunless %}
 
-    <hr>
+
     <ul class="pager">
       {% if page.previous %}
         <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>

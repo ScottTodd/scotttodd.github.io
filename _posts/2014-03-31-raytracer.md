@@ -21,8 +21,6 @@ title_images: [/assets/projects/raytracer/raytracing.png, /assets/projects/raytr
     </figure>
 </div>
 
-<hr>
-
 <h3>Overview</h3>
 
 This was a <a href="http://www.cs.rpi.edu/~cutler/classes/advancedgraphics/S14/hw3_rendering.php">homework assignment</a> for <a href="http://www.cs.rpi.edu/~cutler/classes/advancedgraphics/S14/index.php">Advanced Computer Graphics</a>. This project focused on implementing rendering using ray tracing, radiosity, and photon mapping.
@@ -47,8 +45,6 @@ Photon Mapping
 * Photon distribution throughout the scene
 * Photon collection using a k-d tree
 
-<hr>
-
 <div class="project-images">
     <figure>
         <img src="/assets/projects/raytracer/radiosity.png" title="Radiosity within the Cornell Box" class="img-responsive">
@@ -59,8 +55,6 @@ Photon Mapping
         <figcaption>Undistributed radiosity during iterative solving</figcaption>
     </figure>
 </div>
-
-<hr>
 
 <div class="project-images">
     <figure>

@@ -44,8 +44,6 @@ I wrote most of the non-AI code, including:
 * Character select and end game screens
 * Cheats system for debugging and demonstrations
 
-<hr>
-
 <div class="project-images">
     <a href="/assets/projects/space-luddites/character-select_large.png"><img src="/assets/projects/space-luddites/character-select.png" class="img-responsive"></a>
 

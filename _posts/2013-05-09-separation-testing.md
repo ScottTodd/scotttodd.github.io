@@ -11,8 +11,6 @@ title_images: [/assets/projects/separation-testing/level2_small.png]
 
 <img src="/assets/projects/separation-testing/collection-background.png" class="img-responsive">
 
-<hr>
-
 <h3>Overview</h3>
 
 I created these ten levels using <a href="http://www.thinkwithportals.com/">Portal 2</a>'s <a href="http://theportalwiki.com/wiki/Puzzle_Creator">Puzzle Creator</a> for <a href="http://www.cm.rpi.edu/pl/people-590/lee-sheldon">Lee Sheldon</a>'s Level Design course in one month. With these levels, I explored time related gameplay mechanics while telling a story about working tirelessly to rescue the companion cubes that have been stolen away. My classmates voted them the winner of our team choices awards.
@@ -31,8 +29,6 @@ These levels include:
 * Two races against the clock
 * A giant pinball machine
 * Environments carefully designed for gameplay and thematic reasons
-
-<hr>
 
 <div class="project-images project-images-500h">
     <figure>

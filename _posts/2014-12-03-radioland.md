@@ -11,7 +11,7 @@ title_images: [/assets/projects/radioland/leaves.png]
 
 <div class="project-images project-images-450h">
     <figure>
-        <a href="/assets/projects/radioland/leaves_large.png"><img src="/assets/projects/radioland/leaves.png" class="img-responsive"></a>
+        <a href="/assets/projects/radioland/leaves_large.png"><img src="/assets/projects/radioland/leaves_large.png" class="img-responsive"></a>
         <figcaption>Gunther plays around in the leaves.</figcaption>
     </figure>
 </div>

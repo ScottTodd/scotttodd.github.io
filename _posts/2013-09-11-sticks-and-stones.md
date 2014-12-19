@@ -36,8 +36,6 @@ I coded:
 * The player, enemy, and projectile architectures
 * The squirrel, airplane, and word enemies
 
-<hr>
-
 <div class="project-images project-images-450h">
     <figure>
         <img src="/assets/projects/sticks-and-stones/stage-1.png" class="img-responsive">

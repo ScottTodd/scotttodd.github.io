@@ -22,8 +22,6 @@ title_images: [/assets/projects/painterly-rendering/magma-bunny.png, /assets/pro
     </figure>
 </div>
 
-<hr>
-
 <h3>Overview</h3>
 
 This was my final project for <a href="http://www.cs.rpi.edu/~cutler/classes/advancedgraphics/S14/index.php">Advanced Computer Graphics</a> and <a href="http://www.cogsci.rpi.edu/~destem/gamearch/">Game Architecture</a>. I worked with @andy-hanson on this project over a one month period. We used <a href="http://threejs.org/">three.js</a>, <a href="http://coffeescript.org/">CoffeeScript</a>, and WebGL.
@@ -37,8 +35,6 @@ Click <a href="/assets/projects/painterly-rendering/painterly-rendering.pdf">her
 
 I implemented brush stroke layers, depth-filtering using a multi-pass rendering approach, texture sampling, and diffuse lighting on brush stroke particles. We both contributed to the write-up and I performed the LaTeX conversion. I also collected all of the models and brush stroke textures that we used.
 
-<hr>
-
 <div class="project-images">
     <figure>
         <img src="/assets/projects/painterly-rendering/blue-teapot.png" class="img-responsive" height="390px" width="390px">
@@ -50,8 +46,6 @@ I implemented brush stroke layers, depth-filtering using a multi-pass rendering 
     </figure>
 </div>
 
-<hr>
-
 <div class="project-images">
     <figure>
         <img src="/assets/projects/painterly-rendering/grass-sphere.png" class="img-responsive">
@@ -62,8 +56,6 @@ I implemented brush stroke layers, depth-filtering using a multi-pass rendering 
         <figcaption>Torus knot, showcasing rendering order</figcaption>
     </figure>
 </div>
-
-<hr>
 
 <div class="project-images">
     <figure>
