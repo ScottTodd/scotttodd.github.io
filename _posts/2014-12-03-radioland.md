@@ -4,7 +4,7 @@ title: Radioland
 tagline: Fantasy 3D puzzle platformer using Unity3D.
 description: Fantasy 3D puzzle platformer using Unity3D.
 category: projects
-tags: [Games, Unity3D, C#]
+tags: [Games, Unity3D, C#, Open Source]
 title_images: [/assets/projects/radioland/leaves.png]
 ---
 {% include JB/setup %}
