@@ -6,6 +6,7 @@ description: Artistic shoot-em-up made using Python and pygame.
 category: projects
 tags: [Games, Python, pygame]
 title_images: [/assets/projects/sticks-and-stones/stage-3.png, /assets/projects/sticks-and-stones/stage-2.png]
+tile_image: /assets/projects/sticks-and-stones/tile.png
 ---
 {% include JB/setup %}
 

@@ -6,6 +6,7 @@ description: Campaign of ten Portal 2 levels.
 category: projects
 tags: [Games]
 title_images: [/assets/projects/separation-testing/level2_small.png]
+tile_image: /assets/projects/separation-testing/tile.png
 ---
 {% include JB/setup %}
 

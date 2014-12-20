@@ -6,6 +6,7 @@ description: Real-time painterly rendering using WebGL.
 category: projects
 tags: [Graphics, WebGL, CoffeeScript, three.js, Open Source]
 title_images: [/assets/projects/painterly-rendering/magma-bunny.png, /assets/projects/painterly-rendering/the-scream.png]
+tile_image: /assets/projects/painterly-rendering/tile.png
 ---
 {% include JB/setup %}
 

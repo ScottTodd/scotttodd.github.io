@@ -6,6 +6,7 @@ description: Fantasy 3D puzzle platformer using Unity3D.
 category: projects
 tags: [Games, Unity3D, C#, Open Source]
 title_images: [/assets/projects/radioland/leaves.png]
+tile_image: /assets/projects/radioland/tile.png
 ---
 {% include JB/setup %}
 

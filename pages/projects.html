@@ -8,48 +8,17 @@ extra_css: /assets/css/projects.css
 ---
 {% include JB/setup %}
 
-<div id="projects-list">
+<div class="projects-grid">
     {% for post in site.posts %}
-        {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-        {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-
-        {% if forloop.first %}
-        <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
-        <ul class="post-summary-list">
-        {% endif %}
-
-        <li class="panel panel-default">
-            <div class="panel-heading">
-                <span class="post-summary-title"><a href="{{ post.url }}">{{ post.title }}</a></span>
-                // <!-- slashes between title and tagline -->
-                <span class="post-summary-tagline">{{ post.tagline }}</span>
-            </div>
-            <div class="panel-body">
-                <span class="post-summary-date">{{ post.date | date: "%B %-d, %Y"}}</span>
-                <!-- title images -->
-                <br>
-                {% for title_image in post.title_images %}
-                <a href="{{ post.url }}"><img src="{{ title_image }}" class="title-summary img-responsive"></a>
-                {% endfor %}
-            </div>
-            <div class="panel-footer">
-                <!-- tags -->
-                <ul class="tag_box list-inline">
-                    <li><i class="mdi-image-style"></i></li>
-                    {% assign tags_list = post.tags %}
-                    {% include JB/tags_list %}
-                </ul>
-            </div>
-        </li>
-
-        {% if forloop.last %}
-        </ul>
-        {% else %}
-            {% if this_year != next_year %}
-            </ul>
-            <h2 id="{{ next_year }}-ref">{{ next_year }}</h2>
-            <ul class="post-summary-list">
-            {% endif %}
-        {% endif %}
+        <a href="{{ post.url }}" class="btn btn-default" title="{{ post.title }}: {{ post.tagline }}"><img src="{{ post.tile_image }}" class="title-summary img-responsive" alt="{{ post.title }}"></a>
     {% endfor %}
 </div>
+
+<br>
+<br>
+
+<div>
+    Want more of an overview for each project? View this page as a <a href="/projects-list/">detailed list</a> instead.
+</div>
+
+<br>

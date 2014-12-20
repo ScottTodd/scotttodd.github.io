@@ -6,6 +6,7 @@ description: Cooperative sidescrolling beat-em-up using Unity3D.
 category: projects
 tags: [Games, Unity3D, C#]
 title_images: [/assets/projects/space-luddites/space-luddites-title_small.png]
+tile_image: /assets/projects/space-luddites/tile.png
 ---
 {% include JB/setup %}
 

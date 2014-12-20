@@ -3,32 +3,47 @@
 
 @import 'colors';
 
-.post-summary-list {
-  padding-left: 15px;
-  padding-right: 5px;
+.projects-grid {
+  display: inline-block;
+
+  .btn {
+    padding: 5px;
+    margin: 0px;
+  }
+
+  img {
+    padding: 5px;
+  }
+}
+
+.projects-list {
+  ul {
+    padding-left: 15px;
+    padding-right: 5px;
+  }
 
   li {
     list-style: none;
   }
-}
 
-.post-summary-title {
-  font-size: 20px;
-  font-weight: bold;
-}
+  .project-summary-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
 
-.post-summary-tagline {
-  font-size: 16px;
-}
+  .project-summary-tagline {
+    font-size: 16px;
+  }
 
-.post-summary-date {
-  font-size: 14px;
-}
+  .project-summary-date {
+    font-size: 14px;
+  }
 
-.title-summary {
-  display: inline-block;
-  padding: 5px;
-  max-height: 380px;
-  width: auto;
-  height: auto;
+  .title-img {
+    display: inline-block;
+    padding: 5px;
+    max-height: 380px;
+    width: auto;
+    height: auto;
+  }
 }
