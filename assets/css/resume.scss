@@ -1,38 +1,53 @@
+---
+---
+
+@import 'colors';
+
 .resume-category h3 {
-  margin: 4px; }
+  margin: 4px;
+}
 
 .resume-subcategory {
   font-weight: bold;
   padding-top: 6px;
   padding-bottom: 4px;
-  padding-left: 15px; }
+  padding-left: 15px;
+}
 
 .skills-table table, th, td {
   border: none;
   padding: 2px;
   padding-left: 6px;
-  padding-right: 6px; }
+  padding-right: 6px;
+}
 
 .one-line div {
-  display: inline-block; }
+  display: inline-block;
+}
 
 .logo {
   max-height: 30px;
-  padding-left: 15px; }
+  padding-left: 15px;
+}
 
 .job-title {
-  font-style: italic; }
+  font-style: italic;
+}
 
 .divider {
   padding-left: 15px;
-  padding-right: 15px; }
+  padding-right: 15px;
+}
 
 .company-description {
   font-style: italic;
-  padding-left: 30px; }
+  padding-left: 30px;
+}
 
 .indent {
-  padding-left: 30px; }
+  padding-left: 30px;
+}
 
 .no-bullets {
-  list-style-type: none; }
+  list-style-type: none;
+}
