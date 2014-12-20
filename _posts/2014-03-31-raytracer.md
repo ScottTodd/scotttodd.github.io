@@ -6,6 +6,7 @@ description: Ray Tracing, Radiosity, and Photon Mapping in C++ and OpenGL.
 category: projects
 tags: [Graphics, C++, OpenGL]
 title_images: [/assets/projects/raytracer/raytracing.png, /assets/projects/raytracer/radiosity.png]
+tile_image: /assets/projects/raytracer/tile.png
 ---
 {% include JB/setup %}
 
