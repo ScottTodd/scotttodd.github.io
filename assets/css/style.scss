@@ -2,7 +2,6 @@
 ---
 
 /* Colors */
-
 $primary-blue: #C4CCD0;
 $secondary-blue: #ACBED2;
 $gray-1: #E2E2E0;
@@ -14,20 +13,7 @@ $gray-6: #141616;
 
 $page-background: #b6c2c9;
 $content-background: #ddddd8;
-$region-background: #c4ccd0;
-$content-outline: #bbbbbb;
-$region-outline: #aaaaaa;
-$shadow-value: #242424;
-$shadow-page: $page-background - $shadow-value;
-$shadow-content: $content-background - $shadow-value;
-
-$nav-font: #bbbbbb;
 $nav-highlight: rgba(120,120,120,0.2);
-
-$link: #0088cc;
-$link-hover: #4477af;
-$dark-hover-bg: #394A4A;
-$light-hover-bg: #d7ceb9;
 
 /* Measurements */
 $navbar-height: 52px;
