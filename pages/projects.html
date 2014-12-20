@@ -10,7 +10,7 @@ extra_css: /assets/css/projects.css
 
 <div class="projects-grid">
     {% for post in site.posts %}
-        <a href="{{ post.url }}" class="btn btn-default" title="{{ post.title }}: {{ post.tagline }}">
+        <a href="{{ post.url }}" class="btn btn-default project-container" title="{{ post.title }}: {{ post.tagline }}">
             <div class="project-title">{{ post.title }}</div>
             <img src="{{ post.tile_image }}" class="title-summary img-responsive" alt="{{ post.title }}">
         </a>

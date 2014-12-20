@@ -5,33 +5,51 @@
 
 .projects-grid {
   display: inline-block;
+  width: 100%;
+  text-align: center;
 
   .btn {
     padding: 5px;
     margin: 0px;
   }
 
-  .project-title {
-    position: absolute;
-    padding: 10px 5px;
-    margin: 5px;
-    left: auto;
-    right: auto;
-    max-width: 256px;
-    width: 100%;
+  .project-container {
+    text-align: center;
 
-    background: $gray-1;
-    opacity: 0.0;
-
-    -webkit-transition: all 300ms ease;
-       -moz-transition: all 300ms ease;
-        -ms-transition: all 300ms ease;
-         -o-transition: all 300ms ease;
-            transition: all 300ms ease;
+    /* Add extra separation on smaller screens. */
+    @media only screen and (max-width: 768px) {
+      box-shadow: 0 3px 10px rgba(0,0,0,.23),0 3px 10px rgba(0,0,0,.16);
+      margin: 10px;
+    }
   }
 
-  a:hover > .project-title {
-    opacity: 0.9;
+  .project-title {
+    padding: 10px 5px;
+    left: auto;
+    right: auto;
+    width: 100%;
+  }
+
+  /* Hide title and reveal on hover on large enough displays. */
+  /* A "hover" media query would be ideal, but it is still being drafted? */
+  @media only screen and (min-width: 768px) {
+    .project-title {
+      margin: 5px;
+      max-width: 256px;
+      position: absolute;
+      background: $gray-1;
+      opacity: 0.0;
+
+      -webkit-transition: all 300ms ease;
+         -moz-transition: all 300ms ease;
+          -ms-transition: all 300ms ease;
+           -o-transition: all 300ms ease;
+              transition: all 300ms ease;
+    }
+
+    a:hover > .project-title {
+      opacity: 0.9;
+    }
   }
 
   img {
