@@ -10,5 +10,6 @@ site/_site/
 .bundle/
 _theme_packages/
 .sass-cache
+_lint/
 
 *.psd

@@ -257,11 +257,6 @@ namespace :theme do
 
 end # end namespace :theme
 
-desc "run server"
-task :server do
-  sh "bundle exec jekyll serve --watch"
-end
-
 # Internal: Download and process a theme from a git url.
 # Notice we don't know the name of the theme until we look it up in the manifest.
 # So we'll have to change the folder name once we get the name.
@@ -310,6 +305,50 @@ end
 def get_stdin(message)
   print message
   STDIN.gets.chomp
+end
+
+desc "test jekyll build and lint"
+task :test do
+  puts "Running test task"
+  puts "**Testing jekyll site build**"
+  sh "bundle exec jekyll build"
+  puts "**Testing lint**"
+  lint()
+end # task :test
+
+desc "run server"
+task :server do
+  sh "bundle exec jekyll serve --watch"
+end # task :server
+
+desc "lint files"
+task :lint do
+  puts "Running lint task"
+  lint()
+end # task :lint
+
+def lint()
+  # https://github.com/causes/scss-lint/issues/84
+  # scss-lint breaks on jekyll YAML frontmatter, so lint without frontmatter.
+  copy_scss()
+  sh "scss-lint _lint/css"
+end
+
+# Copy .scss files into a new directory, stripping any frontmatter (---\n---).
+# If more frontmatter is used, the ---(.*\s)*--- regex could be useful
+def copy_scss()
+  Dir.glob("assets/css/*") do |filename|
+    next unless File.extname(filename) == ".scss"
+    puts "copying '#{filename}' to _lint/css"
+
+    open(filename, 'r') do |in_file|
+      open(File.join("_lint/css", File.basename(filename)), 'w') do |out_file|
+        in_file.each_line do |line|
+          out_file.puts line unless line.start_with? "---"
+        end
+      end
+    end
+  end
 end
 
 #Load custom rake scripts

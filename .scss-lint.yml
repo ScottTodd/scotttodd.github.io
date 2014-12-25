@@ -1,0 +1,10 @@
+linters:
+  BorderZero:
+    enabled: false
+
+  Indentation:
+    severity: error
+    width: 2
+
+  HexLength:
+    style: long
