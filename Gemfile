@@ -8,3 +8,5 @@ gem 'listen', '2.7.6' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw/i
 
 gem 'sass', '~> 3.4.1'
 gem 'scss-lint'
+
+gem 'octopress-autoprefixer'

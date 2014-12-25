@@ -60,21 +60,13 @@ body {
   }
 
   .nav > li:focus, .nav > li:hover {
-    -webkit-transition: background 300ms ease;
-       -moz-transition: background 300ms ease;
-        -ms-transition: background 300ms ease;
-         -o-transition: background 300ms ease;
-            transition: background 300ms ease;
+    transition: background 300ms ease;
     color: $secondary-blue;
     background-color: $light-highlight;
   }
 
   .navbar-brand:focus, .navbar-brand:hover {
-    -webkit-transition: background 300ms ease;
-       -moz-transition: background 300ms ease;
-        -ms-transition: background 300ms ease;
-         -o-transition: background 300ms ease;
-            transition: background 300ms ease;
+    transition: background 300ms ease;
     color: $secondary-blue;
     background-color: $light-highlight;
   }
