@@ -1,7 +1,8 @@
-require "rubygems"
+require 'rubygems'
 require 'rake'
 require 'yaml'
 require 'time'
+require 'fileutils'
 
 SOURCE = "."
 CONFIG = {
@@ -337,12 +338,17 @@ end
 # Copy .scss files into a new directory, stripping any frontmatter (---\n---).
 # If more frontmatter is used, the ---(.*\s)*--- regex could be useful
 def copy_scss()
+  css_lint_path = "_lint/css"
+  unless File.directory?(css_lint_path)
+    FileUtils.mkdir_p(css_lint_path)
+  end
+
   Dir.glob("assets/css/*") do |filename|
     next unless File.extname(filename) == ".scss"
     puts "copying '#{filename}' to _lint/css"
 
     open(filename, 'r') do |in_file|
-      open(File.join("_lint/css", File.basename(filename)), 'w') do |out_file|
+      open(File.join(css_lint_path, File.basename(filename)), 'w') do |out_file|
         in_file.each_line do |line|
           out_file.puts line unless line.start_with? "---"
         end
