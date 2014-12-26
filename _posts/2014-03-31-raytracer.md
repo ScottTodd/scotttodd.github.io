@@ -10,7 +10,6 @@ tile_image: /assets/projects/raytracer/tile.png
 ---
 {% include JB/setup %}
 
-
 <div class="project-images">
     <figure>
         <img src="/assets/projects/raytracer/raytracing.png" title="Ray tracing with reflections and soft shadows" class="img-responsive img-responsive">

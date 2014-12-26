@@ -9,10 +9,12 @@ It uses [Github Pages](https://pages.github.com/) for easy hosting, [Jekyll](htt
 
 Setup
 -----
+
 To build a similar site, check out GitHub's [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages) and Jekyll Bootstrap's [Jekyll Quickstart](http://jekyllbootstrap.com/usage/jekyll-quick-start.html).
 
 Directory Structure
 -------------------
+
 I mostly use the basic [Jekyll structure](http://jekyllrb.com/docs/structure/).
 
 The 'custom' theme is forked from the 'twitter' theme.
@@ -34,7 +36,7 @@ Here are the main areas that I've worked in:
         └─── custom
 ```
 
-
 License
 -------
+
 This site is open sourced under the [MIT license](http://opensource.org/licenses/MIT), though the projects showcased may have their own licenses.
