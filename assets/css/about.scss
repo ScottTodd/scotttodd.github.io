@@ -5,24 +5,20 @@
 
 .contact-info {
   margin: 5px;
+
+  table, th, tr {
+    border-bottom: 1px dotted #AAAAAA;
+    border-top: 1px dotted #AAAAAA;
+    padding: 2px 5px;
+  }
 }
 
-.contact-info table, th, tr {
-  border-bottom: 1px dotted #AAAAAA;
-  border-top: 1px dotted #AAAAAA;
-}
-
-.contact-info th, td {
-  padding: 2px 5px;
-}
-
-/* personal photo */
 .photo-id {
   border: 5px solid #333333;
   border-radius: 20px;
-  max-height: 250px;
   float: left;
   margin: 0px 50px 20px 0px;
+  max-height: 250px;
 }
 
 p {

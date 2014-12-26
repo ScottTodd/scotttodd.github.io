@@ -2,9 +2,26 @@ linters:
   BorderZero:
     enabled: false
 
+  SingleLinePerSelector:
+    enabled: false
+
+  ZeroUnit:
+    enabled: false
+
+  # Enable and use https://github.com/octopress/autoprefixer if GitHub Pages
+  # adds support for other gems. Otherwise, use another library to handle this?
+  # https://help.github.com/articles/using-jekyll-plugins-with-github-pages/
+  VendorPrefixes:
+    enabled: false
+
   Indentation:
-    severity: error
     width: 2
 
   HexLength:
     style: long
+
+  HexNotation:
+    style: uppercase
+
+  LeadingZero:
+    style: include_zero

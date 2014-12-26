@@ -14,7 +14,7 @@ tile_image: /assets/projects/painterly-rendering/tile.png
 
 <div class="project-images">
     <figure>
-        <div id="glContainer" class="img-responsive" height="360px" width="360px"></div>
+        <div id="glContainer" class="gl-container img-responsive" height="360px" width="360px"></div>
         <figcaption>Interactive <a href="http://en.wikipedia.org/wiki/Stanford_bunny">Stanford Bunny</a> (requires WebGL)</figcaption>
     </figure>
     <figure>
