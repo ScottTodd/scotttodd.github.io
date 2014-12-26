@@ -336,16 +336,18 @@ def lint()
 end
 
 # Copy .scss files into a new directory, stripping any frontmatter (---\n---).
-# If more frontmatter is used, the ---(.*\s)*--- regex could be useful
+# If more frontmatter is used, the ---(.*\s)*--- regex could be useful.
 def copy_scss()
   css_lint_path = "_lint/css"
   unless File.directory?(css_lint_path)
     FileUtils.mkdir_p(css_lint_path)
   end
+  # Empty the css_lint_path directory.
+  FileUtils.rm_rf(Dir.glob(css_lint_path + '/*'))
 
-  Dir.glob("assets/css/*") do |filename|
+  Dir.glob("assets/css/**/*") do |filename|
     next unless File.extname(filename) == ".scss"
-    puts "copying '#{filename}' to _lint/css"
+    puts "  copying '#{filename}' to '_lint/css/#{File.basename(filename)}'"
 
     open(filename, 'r') do |in_file|
       open(File.join(css_lint_path, File.basename(filename)), 'w') do |out_file|
