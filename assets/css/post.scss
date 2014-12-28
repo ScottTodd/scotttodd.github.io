@@ -55,8 +55,8 @@
   margin-bottom: 20px;
 }
 
-.pager {
-  text-align: inherit;
+.pager li > a {
+  border: none;
 }
 
 .gl-container {

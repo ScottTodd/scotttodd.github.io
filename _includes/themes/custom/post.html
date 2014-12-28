@@ -30,14 +30,25 @@
 
     <ul class="pager">
       {% if page.previous %}
-        <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a></li>
-      {% else %}
-        <li class="prev disabled"><a>&larr; Previous</a></li>
+        <li class="previous">
+          <a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}" class="btn btn-fab btn-raised btn-primary">
+            <i class="mdi-navigation-arrow-back"></i>
+          </a>
+        </li>
       {% endif %}
+
+      <li class="text-center pagination-centered">
+        <a href="/projects/" title="Projects" class="btn btn-fab btn-raised btn-primary">
+          <i class="mdi-navigation-menu"></i>
+        </a>
+      </li>
+
       {% if page.next %}
-        <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a></li>
-      {% else %}
-        <li class="next disabled"><a>Next &rarr;</a>
+        <li class="next">
+          <a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}" class="btn btn-fab btn-raised btn-primary">
+            <i class="mdi-navigation-arrow-forward"></i>
+          </a>
+        </li>
       {% endif %}
     </ul>
   </div>
