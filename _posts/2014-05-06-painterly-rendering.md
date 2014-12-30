@@ -7,10 +7,9 @@ category: projects
 tags: [Graphics, WebGL, CoffeeScript, three.js, Open Source]
 title_images: [/assets/projects/painterly-rendering/magma-bunny.png, /assets/projects/painterly-rendering/the-scream.png]
 tile_image: /assets/projects/painterly-rendering/tile.png
+extra_js: [/assets/js/jquery.githubRepoWidget.min.js, /assets/projects/painterly-rendering/script/magma-bunny.js]
 ---
 {% include JB/setup %}
-
-<script src="/assets/projects/painterly-rendering/script/magma-bunny.js"></script>
 
 <div class="project-images">
     <figure>
@@ -29,7 +28,6 @@ This was my final project for <a href="http://www.cs.rpi.edu/~cutler/classes/adv
 
 Click <a href="/assets/projects/painterly-rendering/painterly-rendering.pdf">here</a> to download our full report.
 
-<script type="text/javascript" src="/assets/js/jquery.githubRepoWidget.min.js"></script>
 <div class="github-widget" data-repo="ScottTodd/PainterlyRendering"></div>
 
 <h3>My Contributions</h3>

@@ -7,6 +7,7 @@ category: projects
 tags: [Games, Unity3D, C#, Open Source]
 title_images: [/assets/projects/radioland/leaves.png]
 tile_image: /assets/projects/radioland/tile.png
+extra_js: /assets/js/jquery.githubRepoWidget.min.js
 ---
 {% include JB/setup %}
 
@@ -23,7 +24,6 @@ This game was the result of three months of work in <a href="http://www.arts.rpi
 
 Radioland is a single player 3D third-person puzzle platformer set on a chain of floating islands. The player controls Gunther as he explores four season-themed levels. As the player navigates through jumping challenges, they search for and collect audio logs. These audio logs reveal snippets of four narratives each focusing on communication.
 
-<script type="text/javascript" src="/assets/js/jquery.githubRepoWidget.min.js"></script>
 <div class="github-widget" data-repo="timmyterrezza/EGDFinalProject"></div>
 
 <h3>Team Members</h3>
