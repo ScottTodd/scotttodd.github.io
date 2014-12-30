@@ -5,6 +5,7 @@ description: About Me
 group: navigation
 permalink: about/
 extra_css: /assets/css/about.css
+extra_js: /assets/js/github-buttons.js
 ---
 {% include JB/setup %}
 
@@ -35,7 +36,6 @@ Before working for Google, I spent three summers interning at <a href="http://ww
         <td><a class="btn btn-default btn-raised btn-sm" href="https://www.linkedin.com/pub/scott-todd/45/5ab/459">Profile</a></td>
     </tr>
 
-    <script type="text/javascript" src="/assets/js/github-buttons.js"></script>
     <tr>
         <td>GitHub:</td>
         <td>
