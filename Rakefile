@@ -3,6 +3,7 @@ require 'rake'
 require 'yaml'
 require 'time'
 require 'fileutils'
+require 'colorize'
 
 SOURCE = "."
 CONFIG = {
@@ -310,11 +311,15 @@ end
 
 desc "test jekyll build and lint"
 task :test do
-  puts "Running test task"
-  puts "**Testing jekyll site build**"
+  puts "Running test task.".yellow
+
+  puts "Testing jekyll site build.".yellow
   sh "bundle exec jekyll build"
-  puts "**Testing lint**"
+  puts "Site build success!".green
+
+  puts "Running lint checks.".yellow
   lint()
+  puts "Lint clean!".green
 end # task :test
 
 desc "run server"
