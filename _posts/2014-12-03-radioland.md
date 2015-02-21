@@ -24,11 +24,11 @@ This game was the result of three months of work in <a href="http://www.arts.rpi
 
 Radioland is a single player 3D third-person puzzle platformer set on a chain of floating islands. The player controls Gunther as he explores four season-themed levels. As the player navigates through jumping challenges, they search for and collect audio logs. These audio logs reveal snippets of four narratives each focusing on communication.
 
-<div class="github-widget" data-repo="timmyterrezza/EGDFinalProject"></div>
+<div class="github-widget" data-repo="Radioland/RadiolandGame"></div>
 
 <h3>Team Members</h3>
 
-* [Neale Johnson](http://diokatsu.wix.com/portfolio/): Writer
+* [Neale LaPlante](http://diokatsu.wix.com/portfolio/): Writer
 * [Annie Sardelis](http://asardelis3.wix.com/portfolio/): Artist
 * [Brian Tam](http://xinoph.webatu.com/): Artist
 * [Tim Terrezza](https://github.com/timmyterrezza) : Programmer
