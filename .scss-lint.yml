@@ -11,7 +11,7 @@ linters:
   # Enable and use https://github.com/octopress/autoprefixer if GitHub Pages
   # adds support for other gems. Otherwise, use another library to handle this?
   # https://help.github.com/articles/using-jekyll-plugins-with-github-pages/
-  VendorPrefixes:
+  VendorPrefix:
     enabled: false
 
   Indentation:
