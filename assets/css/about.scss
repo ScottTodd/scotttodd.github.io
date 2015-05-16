@@ -3,12 +3,15 @@
 
 @import 'colors';
 
+$white-border: #AAAAAA;
+$black-border: #333333;
+
 .contact-info {
   margin: 5px;
 
   table, th, tr {
-    border-bottom: 1px dotted #AAAAAA;
-    border-top: 1px dotted #AAAAAA;
+    border-bottom: 1px dotted $white-border;
+    border-top: 1px dotted $white-border;
   }
 
   td {
@@ -17,7 +20,7 @@
 }
 
 .photo-id {
-  border: 5px solid #333333;
+  border: 5px solid $black-border;
   border-radius: 20px;
   float: left;
   margin: 0px 50px 20px 0px;
