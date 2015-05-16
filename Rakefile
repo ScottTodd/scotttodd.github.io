@@ -314,22 +314,26 @@ task :test do
   puts "Running test task.".yellow
 
   puts "Testing jekyll site build.".yellow
-  sh "bundle exec jekyll build"
-  puts "Site build success!".green
+  begin
+    sh "bundle exec jekyll build"
+    puts "Site build success!".green
+  rescue
+    puts "Site build failed.".red
+  end
 
   puts "Running lint checks.".yellow
   lint()
-  puts "Lint clean!".green
 end # task :test
 
 desc "run server"
 task :server do
+  puts "Running server.".yellow
   sh "bundle exec jekyll serve --watch"
 end # task :server
 
 desc "lint files"
 task :lint do
-  puts "Running lint task"
+  puts "Running lint task.".yellow
   lint()
 end # task :lint
 
@@ -337,7 +341,12 @@ def lint()
   # https://github.com/causes/scss-lint/issues/84
   # scss-lint breaks on jekyll YAML frontmatter, so lint without frontmatter.
   copy_scss()
-  sh "scss-lint _lint/css"
+  begin
+    sh "scss-lint _lint/css"
+    puts "Lint clean!".green
+  rescue
+    puts "Lint failed.".red
+  end
 end
 
 # Copy .scss files into a new directory, stripping any frontmatter (---\n---).
