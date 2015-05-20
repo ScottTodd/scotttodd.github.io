@@ -5,24 +5,24 @@ tagline: Fantasy 3D puzzle platformer using Unity3D.
 description: Fantasy 3D puzzle platformer using Unity3D.
 category: projects
 tags: [Games, Unity3D, C#, Open Source]
-title_images: [/assets/projects/radioland/leaves.png]
-tile_image: /assets/projects/radioland/tile.png
+title_images: [/assets/projects/radioland/house_2.png]
+tile_image: /assets/projects/radioland/tile_jumping.png
 extra_js: /assets/js/jquery.githubRepoWidget.min.js
 ---
 {% include JB/setup %}
 
 <div class="project-images project-images-450h">
     <figure>
-        <a href="/assets/projects/radioland/leaves_large.png"><img src="/assets/projects/radioland/leaves_large.png" class="img-responsive"></a>
-        <figcaption>Gunther plays around in the leaves.</figcaption>
+        <a href="/assets/projects/radioland/house_2_large.png"><img src="/assets/projects/radioland/house_2_large.png" class="img-responsive"></a>
+        <figcaption>Explore Radioland's changing world!</figcaption>
     </figure>
 </div>
 
 <h3>Overview</h3>
 
-This game was the result of three months of work in <a href="http://www.arts.rpi.edu/~ruiz/EGDFall2014/Experimental.htm">Experimental Game Design</a> and we plan to continue development in the spring of 2015. We used Unity3D with C#.
+Join Gunther in Radioland, where you guide our lovable hero in helping the critters of Radioland get life back from the silence that has surrounded them. In this 3D puzzle platformer, use the power of radio to traverse colorful environments, solve puzzles, and collect crazy outfits. Turn on the radio towers, move the environment, complete the levels and guide Radioland back to a brighter future!
 
-Radioland is a single player 3D third-person puzzle platformer set on a chain of floating islands. The player controls Gunther as he explores four season-themed levels. As the player navigates through jumping challenges, they search for and collect audio logs. These audio logs reveal snippets of four narratives each focusing on communication.
+Radioland is the result of two semesters worth of work. Radioland won Second Place in the "Vicarious Visions Student Challenge" at RPI's <a href="http://gamefest.rpi.edu/">GameFest 2015</a>. Check out Radioland's <a href="http://radioland.github.io/">website</a>!
 
 <div class="github-widget" data-repo="Radioland/RadiolandGame"></div>
 
@@ -37,35 +37,48 @@ Radioland is a single player 3D third-person puzzle platformer set on a chain of
 
 <h3>My Contributions</h3>
 
-* Player movement and abilities
-* Camera control, including controller and keyboard/mouse support
-* Effects system, including applications to respawning, footsteps, and abilities
-* Audio integration into Unity
+* Third person player movement and camera control
+* Effects system (respawning, footsteps, collectibles, dialogue, etc.)
+* Audio integration into Unity, streaming radio using [BASS](http://www.un4seen.com/)
 * Platform physics, environmental mechanics
+* Spline editor tools and mesh generation
+* Audio spectrum visualization
 
 <div class="project-images project-images-450h">
     <figure>
-        <a href="/assets/projects/radioland/highJump_large.png"><img src="/assets/projects/radioland/highJump.png" class="img-responsive"></a>
-        <figcaption>Gunther uses a high jump to get a better view.</figcaption>
+        <a href="/assets/projects/radioland/house_1_large.png"><img src="/assets/projects/radioland/house_1.png" class="img-responsive"></a>
+        <figcaption>Tuning to a radio station causes platforms to move.</figcaption>
     </figure>
 
     <figure>
-        <a href="/assets/projects/radioland/lowGravity_large.png"><img src="/assets/projects/radioland/lowGravity.png" class="img-responsive"></a>
-        <figcaption>Gunther uses a low gravity jump to reach far away islands.</figcaption>
+        <a href="/assets/projects/radioland/house_3_large.png"><img src="/assets/projects/radioland/house_3.png" class="img-responsive"></a>
+        <figcaption>Talk to the local critters to learn more about Radioland.</figcaption>
     </figure>
 
     <figure>
-        <a href="/assets/projects/radioland/metal_large.png"><img src="/assets/projects/radioland/metal.png" class="img-responsive"></a>
-        <figcaption>Gunther uses metal skin to resist strong winds.</figcaption>
+        <a href="/assets/projects/radioland/pyramid_2_large.png"><img src="/assets/projects/radioland/pyramid_2.png" class="img-responsive"></a>
+        <figcaption>Watch the world come to life.</figcaption>
     </figure>
 
     <figure>
-        <a href="/assets/projects/radioland/phone_large.png"><img src="/assets/projects/radioland/phone.png" class="img-responsive"></a>
-        <figcaption>Gunther found an audio log stored in a phone.</figcaption>
+        <a href="/assets/projects/radioland/climb_2_large.png"><img src="/assets/projects/radioland/climb_2.png" class="img-responsive"></a>
+        <figcaption>Reach the top of a spinning tower.</figcaption>
     </figure>
 
     <figure>
-        <a href="/assets/projects/radioland/radioTower_large.png"><img src="/assets/projects/radioland/radioTower.png" class="img-responsive"></a>
-        <figcaption>Gunther reached the final radio tower.</figcaption>
+        <a href="/assets/projects/radioland/valley_1_large.png"><img src="/assets/projects/radioland/valley_1.png" class="img-responsive"></a>
+        <figcaption>Bounce your way through this mysterious valley.</figcaption>
+    </figure>
+
+    <figure>
+        <a href="/assets/projects/radioland/level_select_large.png"><img src="/assets/projects/radioland/level_select.png" class="img-responsive"></a>
+        <figcaption>Use the radio tuner to select a level.</figcaption>
+    </figure>
+
+    <figure>
+        <a href="/assets/projects/radioland/cosmetics_large.png"><img src="/assets/projects/radioland/cosmetics.png" class="img-responsive"></a>
+        <figcaption>Find hidden cosmetic items in each level.</figcaption>
     </figure>
 </div>
+
+See the original post from after one semester of development <a href="/projects/radioland-egd/">here</a>.

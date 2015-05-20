@@ -12,6 +12,8 @@ extra_js: /assets/js/jquery.githubRepoWidget.min.js
 ---
 {% include JB/setup %}
 
+<h3>This is the original post after one semester of development. See the latest post <a href="/projects/radioland/">here</a>.</h3>
+
 <div class="project-images project-images-450h">
     <figure>
         <a href="/assets/projects/radioland/egd/leaves_large.png"><img src="/assets/projects/radioland/egd/leaves_large.png" class="img-responsive"></a>
