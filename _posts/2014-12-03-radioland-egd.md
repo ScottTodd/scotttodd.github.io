@@ -4,16 +4,19 @@ title: Radioland
 tagline: Fantasy 3D puzzle platformer using Unity3D.
 description: Fantasy 3D puzzle platformer using Unity3D.
 category: projects
+archive: true
 tags: [Games, Unity3D, C#, Open Source]
-title_images: [/assets/projects/radioland/leaves.png]
-tile_image: /assets/projects/radioland/tile.png
+title_images: [/assets/projects/radioland/egd/leaves.png]
+tile_image: /assets/projects/radioland/egd/tile.png
 extra_js: /assets/js/jquery.githubRepoWidget.min.js
 ---
 {% include JB/setup %}
 
+<h3>This is the original post after one semester of development. See the latest post <a href="/projects/radioland/">here</a>.</h3>
+
 <div class="project-images project-images-450h">
     <figure>
-        <a href="/assets/projects/radioland/leaves_large.png"><img src="/assets/projects/radioland/leaves_large.png" class="img-responsive"></a>
+        <a href="/assets/projects/radioland/egd/leaves_large.png"><img src="/assets/projects/radioland/egd/leaves_large.png" class="img-responsive"></a>
         <figcaption>Gunther plays around in the leaves.</figcaption>
     </figure>
 </div>
@@ -45,27 +48,27 @@ Radioland is a single player 3D third-person puzzle platformer set on a chain of
 
 <div class="project-images project-images-450h">
     <figure>
-        <a href="/assets/projects/radioland/highJump_large.png"><img src="/assets/projects/radioland/highJump.png" class="img-responsive"></a>
+        <a href="/assets/projects/radioland/egd/highJump_large.png"><img src="/assets/projects/radioland/egd/highJump.png" class="img-responsive"></a>
         <figcaption>Gunther uses a high jump to get a better view.</figcaption>
     </figure>
 
     <figure>
-        <a href="/assets/projects/radioland/lowGravity_large.png"><img src="/assets/projects/radioland/lowGravity.png" class="img-responsive"></a>
+        <a href="/assets/projects/radioland/egd/lowGravity_large.png"><img src="/assets/projects/radioland/egd/lowGravity.png" class="img-responsive"></a>
         <figcaption>Gunther uses a low gravity jump to reach far away islands.</figcaption>
     </figure>
 
     <figure>
-        <a href="/assets/projects/radioland/metal_large.png"><img src="/assets/projects/radioland/metal.png" class="img-responsive"></a>
+        <a href="/assets/projects/radioland/egd/metal_large.png"><img src="/assets/projects/radioland/egd/metal.png" class="img-responsive"></a>
         <figcaption>Gunther uses metal skin to resist strong winds.</figcaption>
     </figure>
 
     <figure>
-        <a href="/assets/projects/radioland/phone_large.png"><img src="/assets/projects/radioland/phone.png" class="img-responsive"></a>
+        <a href="/assets/projects/radioland/egd/phone_large.png"><img src="/assets/projects/radioland/egd/phone.png" class="img-responsive"></a>
         <figcaption>Gunther found an audio log stored in a phone.</figcaption>
     </figure>
 
     <figure>
-        <a href="/assets/projects/radioland/radioTower_large.png"><img src="/assets/projects/radioland/radioTower.png" class="img-responsive"></a>
+        <a href="/assets/projects/radioland/egd/radioTower_large.png"><img src="/assets/projects/radioland/egd/radioTower.png" class="img-responsive"></a>
         <figcaption>Gunther reached the final radio tower.</figcaption>
     </figure>
 </div>
