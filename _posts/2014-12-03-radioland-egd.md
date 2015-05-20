@@ -33,7 +33,7 @@ Radioland is a single player 3D third-person puzzle platformer set on a chain of
 
 * [Neale LaPlante](http://diokatsu.wix.com/portfolio/): Writer
 * [Annie Sardelis](http://asardelis3.wix.com/portfolio/): Artist
-* [Brian Tam](http://xinoph.webatu.com/): Artist
+* [Brian Tam](http://xinoph.github.io/): Artist
 * [Tim Terrezza](https://github.com/timmyterrezza) : Programmer
 * [Scott Todd]({{ HOME_PATH }}): Programmer
 * [Matt Wellins](http://mattwellins.com/): Composer

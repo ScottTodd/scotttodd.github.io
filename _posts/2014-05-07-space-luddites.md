@@ -28,7 +28,7 @@ Check out our <a href="http://spaceluddites.weebly.com/">website</a> for more im
 
 * [Annie Sardelis](http://asardelis3.wix.com/portfolio/): Artist, Initial Concept
 * Brennan Cushin: Programmer
-* [Brian Tam](http://xinoph.webatu.com/): Artist, Visual Effects
+* [Brian Tam](http://xinoph.github.io/): Artist, Visual Effects
 * [Neale LaPlante](http://diokatsu.wix.com/portfolio/): Writer, Producer
 * [Scott Todd]({{ HOME_PATH }}): Lead Programmer
 
