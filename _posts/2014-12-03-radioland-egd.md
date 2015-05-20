@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Radioland
+title: Radioland-EGD
 tagline: Fantasy 3D puzzle platformer using Unity3D.
 description: Fantasy 3D puzzle platformer using Unity3D.
 category: projects
