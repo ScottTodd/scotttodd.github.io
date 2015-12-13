@@ -19,10 +19,19 @@ First time build (Windows 10)
 3. ```gem install bundler```
 4. ```bundle install```
 
-Updating gems
+Updating/managing gems
 
-* ```gem update github-pages```
+* ```gem list```
+* ```gem dependency```
+* ```gem update github-pages```, see Github Pages [Dependency versions](https://pages.github.com/versions/)
 * ```bundle update```
+
+Standard workflow commands
+
+* ```rake server```
+* ```rake test```
+* ```rake lint```
+
 
 Directory Structure
 -------------------
