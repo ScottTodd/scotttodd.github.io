@@ -13,11 +13,15 @@ extra_js: /assets/js/github-buttons.js
 
 Hi! I'm Scott!
 
-I currently work for Google in Seattle, WA. During an internship there in 2014, I helped add WebGL performance analysis tools to their open source <a href="http://google.github.io/tracing-framework/">Web Tracing Framework</a>.
+I build cool things for Google in Seattle!
 
-I graduated from <a href="http://www.rpi.edu/">Rensselaer</a> (RPI), where I studied <a href="http://www.cs.rpi.edu/">Computer Science</a> and <a href="http://www.hass.rpi.edu/pl/gaming">Games and Simulation Arts & Sciences</a>. I enjoy graphics, gameplay, and data visualization programming.
+I enjoy graphics programming - turning math and arcane GPU knowledge into pretty pictures. I also like data visualization, interaction design, and game development.
 
-Before working for Google, I spent three summers interning at <a href="http://www.mitre.org/">The MITRE Corporation</a> working on social network analysis, research tools, and other fun projects. Take a look at my resume for more details.
+I added WebGL performance analysis tools to the <a href="http://google.github.io/tracing-framework/">Web Tracing Framework</a>. Check out the docs for what I added <a href="http://google.github.io/tracing-framework/analyzing-traces.html">here</a>.
+
+I graduated from <a href="http://www.rpi.edu/">Rensselaer</a> (RPI), where I studied <a href="http://www.cs.rpi.edu/">Computer Science</a> and <a href="http://www.hass.rpi.edu/pl/gaming">Games and Simulation Arts & Sciences</a>.
+
+I also spent three summers interning at <a href="http://www.mitre.org/">The MITRE Corporation</a> working on social network analysis, research tools, and other fun projects.
 
 <br>
 <hr>
