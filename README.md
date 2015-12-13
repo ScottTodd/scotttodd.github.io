@@ -29,8 +29,9 @@ Updating/managing gems
 Standard workflow commands
 
 * ```rake server```
-* ```rake test```
+* ```rake test``` (also run via [Travis-CI](https://travis-ci.org/ScottTodd/scotttodd.github.io))
 * ```rake lint```
+* ```rake livereload```, with the browser extension from their [website](http://livereload.com/)
 
 
 Directory Structure
