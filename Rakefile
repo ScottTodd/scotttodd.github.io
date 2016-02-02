@@ -319,6 +319,7 @@ task :test do
     puts "Site build success!".green
   rescue
     puts "Site build failed.".red
+    raise
   end
 
   puts "Running lint checks.".yellow
