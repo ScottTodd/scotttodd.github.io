@@ -315,7 +315,7 @@ task :test do
 
   puts "Testing jekyll site build.".yellow
   begin
-    sh "bundle exec jekyll build --incremental"
+    sh "bundle exec jekyll build"
     puts "Site build success!".green
   rescue
     puts "Site build failed.".red
