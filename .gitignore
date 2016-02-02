@@ -11,5 +11,6 @@ site/_site/
 _theme_packages/
 .sass-cache
 _lint/
+.jekyll-metadata
 
 *.psd
