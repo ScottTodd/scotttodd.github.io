@@ -315,7 +315,7 @@ task :test do
 
   puts "Testing jekyll site build.".yellow
   begin
-    sh "bundle exec jekyll build"
+    sh "bundle exec jekyll build --incremental"
     puts "Site build success!".green
   rescue
     puts "Site build failed.".red
@@ -328,7 +328,7 @@ end # task :test
 desc "run server"
 task :server do
   puts "Running server.".yellow
-  sh "bundle exec jekyll serve --watch"
+  sh "bundle exec jekyll serve --watch --incremental"
 end # task :server
 
 desc "lint files"
