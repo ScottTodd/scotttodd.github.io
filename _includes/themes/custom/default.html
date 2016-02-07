@@ -102,34 +102,20 @@
           -->
           {% endcomment %}
 
-          {% if page.navigation %}
-            {% for link in page.navigation %}
+          {% assign nodes = site.pages | sort: "group_sort" %}
+          {% for node in nodes %}
+            {% if node.group == "navigation" %}
             <li
-              {% if link.url == "/" and page.url == "/" %}
-                class="active"
-              {% elsif link.url != "/" and page.url contains link.url %}
-                class="active"
-              {% endif %}
+                {% if node.url == "/" and page.url == "/" %}
+                  class="active"
+                {% elsif node.url != "/" and page.url contains node.url %}
+                  class="active"
+                {% endif %}
             >
-                <a href="{{ link.url }}">{{ link.text }}</a>
+                <a href="{{ node.url }}">{{ node.title }}</a>
             </li>
-            {% endfor %}
-          {% else %}
-            {% for link in site.pages %}
-              {% if link.group == "navigation" %}
-              <li
-                  {% if link.url == "/" and page.url == "/" %}
-                    class="active"
-                  {% elsif link.url != "/" and page.url contains link.url %}
-                    class="active"
-                  {% endif %}
-              >
-                  <a href="{{ link.url }}">{{ link.text }}</a>
-              </li>
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-
+            {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </div>

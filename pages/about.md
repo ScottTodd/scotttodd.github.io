@@ -3,6 +3,7 @@ layout: page
 title: About Me
 description: About Me
 group: navigation
+group_sort: 1
 permalink: about/
 extra_css: /assets/css/about.css
 extra_js: /assets/js/github-buttons.js
