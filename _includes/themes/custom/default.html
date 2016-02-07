@@ -102,7 +102,18 @@
           -->
           {% endcomment %}
 
-          {% for link in page.navigation | append: layout.navigation %}
+          {% for link in page.navigation %}
+          <li
+            {% if link.url == "/" and page.url == "/" %}
+              class="active"
+            {% elsif link.url != "/" and page.url contains link.url %}
+              class="active"
+            {% endif %}
+          >
+              <a href="{{ link.url }}">{{ link.text }}</a>
+          </li>
+          {% endfor %}
+          {% for link in layout.navigation %}
           <li
             {% if link.url == "/" and page.url == "/" %}
               class="active"
