@@ -17,6 +17,8 @@
 
   {% if page.tile_image %}
     {% assign main_image = page.tile_image %}
+  {% else if layout.tile_image %}
+    {% assign main_image = layout.tile_image %}
   {% else %}
     {% assign main_image = "/assets/images/scott-todd.png" %}
   {% endif %}
@@ -39,6 +41,9 @@
   <!-- Site custom styles -->
   <link rel="stylesheet" href="/assets/css/base.css?body=1" type="text/css" media="all">
   {% for css_name in page.extra_css %}
+    <link rel="stylesheet" href="{{ css_name }}" type="text/css" media="all">
+  {% endfor %}
+  {% for css_name in layout.extra_css %}
     <link rel="stylesheet" href="{{ css_name }}" type="text/css" media="all">
   {% endfor %}
 
@@ -133,6 +138,9 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.1.6/js/material.min.js"></script>
 
   {% for js_name in page.extra_js %}
+    <script src="{{ js_name }}"></script>
+  {% endfor %}
+  {% for js_name in layout.extra_js %}
     <script src="{{ js_name }}"></script>
   {% endfor %}
 
