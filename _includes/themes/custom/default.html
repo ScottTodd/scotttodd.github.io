@@ -102,7 +102,7 @@
           -->
           {% endcomment %}
 
-          {% for link in page.navigation %}
+          {% for link in page.navigation | append: layout.navigation %}
           <li
             {% if link.url == "/" and page.url == "/" %}
               class="active"
