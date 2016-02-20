@@ -17,7 +17,8 @@ First time build (Windows 10)
 1. Install Ruby: [official website](https://www.ruby-lang.org/en/documentation/installation/). Any 2.x version should be fine, tested on 2.2.3 (x64).
 2. Install the Ruby Development Kit from [here](http://rubyinstaller.org/downloads), following the instructions [here](http://github.com/oneclick/rubyinstaller/wiki/Development-Kit).
 3. ```gem install bundler```
-4. ```bundle install```
+4. ```bundle update```
+5. ```bundle install```
 
 Updating/managing gems
 
