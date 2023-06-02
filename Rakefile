@@ -355,7 +355,7 @@ end # task :test
 desc "run server"
 task :server do
   puts "Running server.".yellow
-  sh "bundle exec jekyll serve --watch"
+  sh "bundle exec jekyll serve --livereload"
 end # task :server
 
 desc "lint files"

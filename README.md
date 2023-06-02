@@ -3,7 +3,7 @@ scotttodd.github.io
 
 This is the source for my [website](http://scotttodd.github.io/).
 
-It uses [Github Pages](https://pages.github.com/) for easy hosting, [Jekyll](http://jekyllrb.com/) for static site generation, and [Jekyll Bootstrap](http://jekyllbootstrap.com/) for its many blog features and theming support.
+It uses [GitHub Pages](https://pages.github.com/) for easy hosting, [Jekyll](http://jekyllrb.com/) for static site generation, and [Jekyll Bootstrap](http://jekyllbootstrap.com/) for its many blog features and theming support.
 
 To build a similar site, check out GitHub's [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages) and Jekyll Bootstrap's [Jekyll Quickstart](http://jekyllbootstrap.com/usage/jekyll-quick-start.html).
 
@@ -12,7 +12,7 @@ Development Instructions
 
 First time build (Windows 10):
 
-1. Install Ruby: [official website](https://www.ruby-lang.org/en/documentation/installation/). Any 2.x version should be fine, tested on 2.2.3 (x64).
+1. Install Ruby: [official website](https://www.ruby-lang.org/en/documentation/installation/). Tested on 2.7.4 (see what the GitHub Pages gem uses).
 2. Install the Ruby Development Kit from [here](http://rubyinstaller.org/downloads), following the instructions [here](http://github.com/oneclick/rubyinstaller/wiki/Development-Kit).
 3. ```gem install bundler```
 4. ```bundle update```
@@ -22,19 +22,18 @@ Updating/managing gems:
 
 * ```gem list```
 * ```gem dependency```
-* ```gem update github-pages```, see Github Pages [Dependency versions](https://pages.github.com/versions/)
+* ```gem update github-pages```, see GitHub Pages [Dependency versions](https://pages.github.com/versions/)
 * ```bundle update```
 
 Standard workflow commands:
 
-* ```rake server```
+* ```rake server``` (supports livereload)
 * ```rake test```
 * ```rake lint```
 
-Or serve directly:
+Or run directly:
 
-* ```bundle exec jekyll serve --watch```
-
+* ```bundle exec jekyll serve --livereload``` (easier to terminate)
 
 Directory Structure
 -------------------
