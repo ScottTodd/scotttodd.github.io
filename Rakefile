@@ -399,11 +399,5 @@ def copy_scss()
   end
 end
 
-desc "LiveReload"
-task :livereload do
-  puts "Starting LiveReload server.".yellow
-  sh "bundle exec guard"
-end
-
 #Load custom rake scripts
 Dir['_rake/*.rake'].each { |r| load r }
