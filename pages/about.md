@@ -44,9 +44,9 @@ I also spent three summers interning at <a href="http://www.mitre.org/">The MITR
     <tr>
         <td>GitHub:</td>
         <td>
-            <a class="btn btn-default btn-raised btn-sm" href="https://github.com/ScottTodd">Profile</a>&nbsp;
-            <a class="btn btn-default btn-raised btn-sm" id="gf" href="https://github.com/scotttodd/followers" title="Go to ScottTodd's GitHub followers page" target="_blank"></a>&nbsp;
-            <a class="btn btn-default btn-raised btn-sm" id="gfr" href="https://github.com/scotttodd/repositories" title="Go to ScottTodd's GitHub repositories page" target="_blank"></a>
+            <a class="btn btn-default btn-raised btn-sm" href="https://github.com/scotttodd">Profile</a>&nbsp;
+            <a class="btn btn-default btn-raised btn-sm" id="gf" href="https://github.com/scotttodd/followers" title="Go to scotttodd's GitHub followers page" target="_blank"></a>&nbsp;
+            <a class="btn btn-default btn-raised btn-sm" id="gfr" href="https://github.com/scotttodd/repositories" title="Go to scotttodd's GitHub repositories page" target="_blank"></a>
         </td>
     </tr>
 </tbody>
