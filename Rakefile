@@ -355,7 +355,7 @@ end # task :test
 desc "run server"
 task :server do
   puts "Running server.".yellow
-  sh "bundle exec jekyll serve --watch"
+  sh "bundle exec jekyll serve --livereload"
 end # task :server
 
 desc "lint files"
@@ -397,12 +397,6 @@ def copy_scss()
       end
     end
   end
-end
-
-desc "LiveReload"
-task :livereload do
-  puts "Starting LiveReload server.".yellow
-  sh "bundle exec guard"
 end
 
 #Load custom rake scripts
