@@ -16,9 +16,9 @@ Hi! I'm Scott!
 
 I build cool things in Seattle!
 
-I enjoy graphics programming, building developer tools, data visualization, interaction design, and game development. I've also worked on compilers for machine learning deployment.
+I enjoy graphics programming, building developer tools, data visualization, interaction design, and game development. I've also worked on open source compilers and libraries for machine learning deployment.
 
-I graduated from <a href="http://www.rpi.edu/">Rensselaer</a> (RPI), where I studied <a href="https://science.rpi.edu/computer-science">Computer Science</a> and <a href="https://hass.rpi.edu/games-and-simulation-arts-and-sciences">Games and Simulation Arts & Sciences</a>.
+I graduated from <a href="http://www.rpi.edu/">Rensselaer Polytechnic Institute</a> (RPI), where I studied <a href="https://science.rpi.edu/computer-science">Computer Science</a> and <a href="https://hass.rpi.edu/games-and-simulation-arts-and-sciences">Games and Simulation Arts & Sciences</a>.
 
 <br>
 <hr>
