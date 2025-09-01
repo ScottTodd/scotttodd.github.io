@@ -117,5 +117,5 @@ JB:
   # where [HELPER] is the name of the helper you are overriding.
 
 sass:
-  style: :compressed
+  style: compressed
   sass_dir: assets/css
