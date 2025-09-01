@@ -81,4 +81,4 @@ Radioland is the result of two semesters worth of work. Radioland won Second Pla
     </figure>
 </div>
 
-See the original post from after one semester of development <a href="/projects/radioland-egd/">here</a>.
+See the original post from after one semester of development <a href="/projects/radioland-egd">here</a>.
