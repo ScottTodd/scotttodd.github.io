@@ -3,26 +3,25 @@ scotttodd.github.io
 
 This is the source for my [website](http://scotttodd.github.io/).
 
-It uses [GitHub Pages](https://pages.github.com/) for easy hosting, [Jekyll](http://jekyllrb.com/) for static site generation, and [Jekyll Bootstrap](http://jekyllbootstrap.com/) for its many blog features and theming support.
+It uses [GitHub Pages](https://pages.github.com/) for easy hosting, [Jekyll](http://jekyllrb.com/) for static site generation, and [Jekyll Bootstrap](https://github.com/plusjade/jekyll-bootstrap) for its many blog features and theming support.
 
-To build a similar site, check out GitHub's [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages) and Jekyll Bootstrap's [Jekyll Quickstart](http://jekyllbootstrap.com/usage/jekyll-quick-start.html).
+To build a similar site, check out GitHub's [Using Jekyll with Pages](https://help.github.com/articles/using-jekyll-with-pages).
 
 Development Instructions
 -----
 
 First time build (Windows 10):
 
-1. Install Ruby: [official website](https://www.ruby-lang.org/en/documentation/installation/). Tested on 2.7.4 (see what the GitHub Pages gem uses).
-2. Install the Ruby Development Kit from [here](http://rubyinstaller.org/downloads), following the instructions [here](http://github.com/oneclick/rubyinstaller/wiki/Development-Kit).
-3. ```gem install bundler```
-4. ```bundle update```
-5. ```bundle install```
+1. Install Ruby: [official website](https://www.ruby-lang.org/en/documentation/installation/). Tested on 3.4.5 (see what the GitHub Pages gem uses).
+2. ```gem install bundler```
+3. ```bundle update```
+4. ```bundle install```
 
 Updating/managing gems:
 
 * ```gem list```
 * ```gem dependency```
-* ```gem update github-pages```, see GitHub Pages [Dependency versions](https://pages.github.com/versions/)
+* ```gem update github-pages```, see GitHub Pages [Dependency versions](https://pages.github.com/versions.json)
 * ```bundle update```
 
 Standard workflow commands:

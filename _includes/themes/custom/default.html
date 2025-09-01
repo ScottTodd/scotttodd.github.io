@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>{{ site.title_prefix }}{{ page.title }}</title>
-  <meta property="og:title" content="{{ site.title_prefix }}{{ page.title }}">
-  <meta name="twitter:title" content="{{ site.title_prefix }}{{ page.title }}">
+  <title>{{ site.title_prefix }}{{ page.title }}{{ site.title_suffix }}</title>
+  <meta property="og:title" content="{{ site.title_prefix }}{{ page.title }}{{ site.title_suffix }}">
+  <meta name="twitter:title" content="{{ site.title_prefix }}{{ page.title }}{{ site.title_suffix }}">
 
   {% if page.description %}
     <meta name="description" content="{{ page.description }}">
@@ -129,7 +129,7 @@
     <div class="footer">
       <hr>
       <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-        with help from <a href="http://jekyllbootstrap.com" target="_blank" title="Jekyll Bootstrap - The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>, <a href="http://getbootstrap.com/" target="_blank" title="Bootstrap - The world's most popular mobile-first and responsive front-end framework.">Bootstrap</a>, and <a href="http://fezvrasta.github.io/bootstrap-material-design/" target="_blank" title="Material Design for Bootstrap">Bootstrap Material Design</a>. View the source on <a href="https://github.com/scotttodd/scotttodd.github.io">GitHub</a>!
+        with help from <a href="https://github.com/plusjade/jekyll-bootstrap" target="_blank" title="Jekyll Bootstrap - The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>, <a href="http://getbootstrap.com/" target="_blank" title="Bootstrap - The world's most popular mobile-first and responsive front-end framework.">Bootstrap</a>, and <a href="https://github.com/FezVrasta/bootstrap-material-design" target="_blank" title="Material Design for Bootstrap">Bootstrap Material Design</a>. View the source on <a href="https://github.com/scotttodd/scotttodd.github.io">GitHub</a>!
       </p>
     </div>
   </div>
