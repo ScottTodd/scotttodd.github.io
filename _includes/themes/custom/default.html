@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <title>{{ site.title_prefix }}{{ page.title }}</title>
-  <meta property="og:title" content="{{ site.title_prefix }}{{ page.title }}">
-  <meta name="twitter:title" content="{{ site.title_prefix }}{{ page.title }}">
+  <title>{{ site.title_prefix }}{{ page.title }}{{ site.title_suffix }}</title>
+  <meta property="og:title" content="{{ site.title_prefix }}{{ page.title }}{{ site.title_suffix }}">
+  <meta name="twitter:title" content="{{ site.title_prefix }}{{ page.title }}{{ site.title_suffix }}">
 
   {% if page.description %}
     <meta name="description" content="{{ page.description }}">

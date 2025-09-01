@@ -16,6 +16,7 @@ plugins:
 title: Scott Todd
 tagline:
 title_prefix:
+title_suffix: " | Scott Todd"
 author:
   name: Scott Todd
   email: scott.todd0@gmail.com
